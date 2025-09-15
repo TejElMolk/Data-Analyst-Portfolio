@@ -1,4 +1,4 @@
-## I. Introduction / Context
+## I. Introduction
 
 ### **Who is CitySpot?**
 
