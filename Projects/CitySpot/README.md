@@ -252,7 +252,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
     
 - Visualized distributions of key indices to detect outliers and variability.
 - Normalized all indices to place variables on a consistent scale for comparison.
-    
+<details>
 **A-Cost of Living Index**  
     
     
@@ -325,7 +325,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 - **Moderate standard deviation (20.39):** Reasonable variability between cities  
 - **Food budget segmentation:** Three natural groups emerge (affordable <40, medium 40-60, expensive >60)  
 - **Outliers to monitor:** Few cities with extremely high food prices (>100)  
-    
+    <details>
 
 ### **2. Bivariate Analysis**
 
