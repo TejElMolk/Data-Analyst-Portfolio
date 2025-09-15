@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Images/CitySpot.png" alt="CitySpot" width="200">
+  <img src="Images/logo.png" alt="logo.png" width="400">
 </p>
 
 
