@@ -477,8 +477,6 @@ To make the platform more intuitive and accessible:
 </details>
 
 ## VI. Limitations
-<details>
-<summary><strong>Limitations</strong></summary>
 
 While CitySpot provides valuable insights, several limitations must be acknowledged:
 
@@ -492,11 +490,9 @@ While CitySpot provides valuable insights, several limitations must be acknowled
 4. **Limited consideration of personal circumstances:**
     - The analysis does not factor in individual-specific preferences such as job market, language, visa requirements, or family needs.
 
-</details>
+
 
 ## VII. Conclusion
-<details>
-<summary><strong>Conclusion</strong></summary>
 
 CitySpot demonstrates that multi-source data can effectively guide individuals in choosing cities that match their lifestyle and priorities. The analysis reveals that:
 
@@ -506,7 +502,6 @@ CitySpot demonstrates that multi-source data can effectively guide individuals i
 
 Overall, CitySpot illustrates how rigorous data analysis and interactive visualization can transform complex datasets into actionable insights, enabling informed, data-driven relocation decisions.
 
-</details>
 
 ## VIII. Dashboard
 
