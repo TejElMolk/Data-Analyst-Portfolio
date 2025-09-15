@@ -42,7 +42,7 @@ CitySpot is a data-driven project designed to help individuals choose the best c
 **Result:**  
 CitySpot demonstrates that multi-source data can guide individuals in choosing cities that match their lifestyle. Analysis shows cost of living alone isn’t reliable; safety, healthcare, climate, and social inclusion are key. Regional patterns highlight Europe’s premium healthcare vs. Asia’s high quality of life at lower cost.  
 
-[See full project](Projects/Cityspot/)
+[See full project CitySpot](Projects/CitySpot/)
 
 ---
 
@@ -63,7 +63,7 @@ Analyze data to identify key trends in customer behavior, top-selling products, 
 **Result:**  
 Highlights key drivers of revenue from loyal customers and popular product categories. Time-based purchasing and basket analysis reveal opportunities to increase basket size and improve retention. Provides actionable insights for marketing and operational decisions.  
 
-[See full project](Projects/Electrostore/)
+[See full project ElectroStore](Projects/ElectroStore/)
 
 ---
 
@@ -82,7 +82,7 @@ Explore the Netflix catalogue, understand content distribution, identify trends,
 **Result:**  
 Analysis revealed that Netflix primarily focuses on movies (~70%) while maintaining TV shows for binge-watching. Drama, Comedy, and Documentary are the most common genres. Content production is concentrated in the US, India, and UK, but Netflix maintains a global presence in 120 countries. Seasonal and regional trends highlight opportunities for localized content strategies and strategic content expansion.
 
-[See full project](Projects/Netflix/)
+[See full project Netflix](Projects/Netflix/)
 
 ---
 
@@ -102,7 +102,7 @@ Identify key trends in revenue, orders, customer behavior, product categories, a
 **Result:**  
 Shows strong growth in revenue and orders driven by new customers and popular product categories. Highlights seasonal trends, regional differences, low customer retention, and underperforming sellers. Insights help optimize marketing, product promotion, and seller support.  
 
-[See full project](Projects/Olist/)
+[See full project Olist](Projects/Olist/)
 
 
 ---
