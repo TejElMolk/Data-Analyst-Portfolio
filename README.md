@@ -23,8 +23,9 @@
 ## Portfolio Projects
 Here is a brief overview of my projects. Click on the links to see the full project details.
 
-### 1. Cityspot
-**Pitch Project:**  
+### Cityspot
+
+**Overview:**  
 CitySpot is a data-driven project designed to help individuals choose the best city to live in based on their lifestyle and priorities. By aggregating global data on cost of living, safety, healthcare, climate, and inclusivity, CitySpot transforms raw information into actionable insights. Using Python for data cleaning and EDA, and Power BI for interactive visualization, the project enables users to easily compare cities and discover their ideal destination.
 
 **Goal:**  
@@ -45,8 +46,9 @@ CitySpot demonstrates that multi-source data can guide individuals in choosing c
 
 ---
 
-### 2. ElectroStore
-**Pitch Project:**  
+### ElectroStore
+
+**Overview:**  
 Analyzed ElectroStore’s Jan–Nov 2020 data using Excel to uncover sales trends, top products, and customer behavior patterns. Built Pivot Tables, charts, and an interactive dashboard to reveal purchasing trends, basket composition, and retention patterns.
 
 **Goal:**  
@@ -66,7 +68,8 @@ Highlights key drivers of revenue from loyal customers and popular product categ
 ---
 
 ### 3. Netflix
-**Pitch Project:**  
+
+**Overview:**  
 Analyzed Netflix’s 2016–2021 catalogue using Power Query and Power BI to explore content types, genres, country distribution, and seasonal trends. Cleaned data and built interactive dashboards for actionable insights on content strategy.
 
 **Goal:**  
@@ -84,7 +87,8 @@ Analysis revealed that Netflix primarily focuses on movies (~70%) while maintain
 ---
 
 ### 4. Olist
-**Pitch Project:**  
+
+**Overview:**  
 Analyzed Olist’s 2016–2018 e-commerce data using PostgreSQL, Looker Studio, and Excel pivot tables to uncover trends in revenue, orders, payment methods, customer behavior, product categories, and seller performance.
 
 **Goal:**  
