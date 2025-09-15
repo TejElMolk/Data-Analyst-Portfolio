@@ -336,7 +336,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
     
 **Purpose:**  Explore relationships between two variables.
 
-- Examined correlations between key indices:
+- Examined correlations between key indices 
 
 <details>
 <summary><strong>Cost of Living Index vs. Quality of Life Index</strong></summary>
