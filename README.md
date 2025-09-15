@@ -67,7 +67,7 @@ Highlights key drivers of revenue from loyal customers and popular product categ
 
 ---
 
-### 3. Netflix
+### Netflix
 
 **Overview:**  
 Analyzed Netflix’s 2016–2021 catalogue using Power Query and Power BI to explore content types, genres, country distribution, and seasonal trends. Cleaned data and built interactive dashboards for actionable insights on content strategy.
@@ -86,7 +86,7 @@ Analysis revealed that Netflix primarily focuses on movies (~70%) while maintain
 
 ---
 
-### 4. Olist
+### Olist
 
 **Overview:**  
 Analyzed Olist’s 2016–2018 e-commerce data using PostgreSQL, Looker Studio, and Excel pivot tables to uncover trends in revenue, orders, payment methods, customer behavior, product categories, and seller performance.
