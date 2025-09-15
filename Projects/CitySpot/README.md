@@ -510,6 +510,8 @@ Overall, CitySpot illustrates how rigorous data analysis and interactive visuali
 
 
 ## VIII. Dashboard
+</details>
+[Download Power BI Dashboard (.pbix)](Projects/CitySpot/Dashboard/CitySpot_Dashboard (1).pbix)
 
   <img src="Images/Cityspot_dashboard.png" alt="Images/Cityspot_dashboard.png" width="1000">
-
+</details>
