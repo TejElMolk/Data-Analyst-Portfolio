@@ -414,15 +414,13 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 </details>
 
 ### **3. Multivariate Analysis**
-<details>
-    
-<summary><strong>Purpose</strong></summary>
+
     
 **Purpose:**  Identify interactions among multiple indices simultaneously.
 
 - Generated a correlation matrix to evaluate relationships across all numeric variables.
 - Highlighted the most relevant factors influencing Quality of Life.
-</details>
+
 
 <details>
 <summary><strong>Correlation Heatmap</strong></summary>
