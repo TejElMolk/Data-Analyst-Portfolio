@@ -255,7 +255,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 
 **Cost of Living Index**  
 
-![Cost of Living Index](Projects/CitySpot/Images/Cost_of_living_index.png)
+![Cost of Living Index](Images/Cost_of_living_index.png)
 
 **Insights**  
 - **Two-peak distribution:** Two distinct peaks around 35 and 65, suggesting two city groups  
