@@ -107,11 +107,11 @@ Shows strong growth in revenue and orders driven by new customers and popular pr
 ## Skills
 
 - **Data Cleaning & Preparation**
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- Statistical Analysis
-- Data Modeling (Clustering, Classification)
-- Dashboard & Reporting
+- **Exploratory Data Analysis (EDA)**
+- **Data Visualization**
+- **Statistical Analysis**
+- **Data Modeling (Clustering, Classification)**
+- **Dashboard & Reporting**
 
 ---
 
@@ -129,13 +129,10 @@ Shows strong growth in revenue and orders driven by new customers and popular pr
 ## Education
 
 - **Jedha Bootcamp – Data Analytics (State Certified)**  
-  Intensive hands-on program covering Python, SQL, Excel, data cleaning, EDA, visualization, and dashboards. Completed with a state-recognized certification.
 
 - **Master in International Trade**, IAE Nice  
-  Focused on international business, trade analysis, and market research.
 
 - **Management Degree**, IHEC Tunis  
-  Provided a strong foundation in business, management, and analytical thinking.
 
 
 ---
@@ -152,5 +149,5 @@ Shows strong growth in revenue and orders driven by new customers and popular pr
 ---
 
 ## Contact
-- LinkedIn: [@TejElMolkEnnouri](https://www.linkedin.com/in/tej-el-molk-ennouri/)  
-- Email: tejelmolkennour@gmail.com
+- **LinkedIn**: [@TejElMolkEnnouri](https://www.linkedin.com/in/tej-el-molk-ennouri/)  
+- **Email**: tejelmolkennour@gmail.com
