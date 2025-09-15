@@ -1,9 +1,10 @@
 <details>
-  <summary style="font-size:1.5em; font-weight:bold;">II. Data Exploration</summary>
+  <summary></summary>
   <div style="text-align:center; margin-top:10px;">
     <img src="Images/CitySpot.png" alt="CitySpot.png" width="600">
   </div>
 </details>
+
 
 ## I. Introduction
 
