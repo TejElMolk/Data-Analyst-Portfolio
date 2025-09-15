@@ -328,7 +328,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
     <details>
 
 ### **2. Bivariate Analysis**
-
+<details>
 **Purpose:** Explore relationships between two variables.
 
 - Examined correlations between key indices:
@@ -390,11 +390,11 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
     - **Lausanne comparison**: Similar quality of life to Jakarta but among most expensive cities (97)
 - **African hidden gems**:
     - **Kigali (Rwanda)**: Healthcare score (65) equivalent to Brussels or Toronto, but much lower cost (7)
-
+<details>
 ---
 
 ### **3. Multivariate Analysis / Correlation Heatmap**
-
+<details>
 **Purpose:** Identify interactions among multiple indices simultaneously.
 
 - Generated a correlation matrix to evaluate relationships across all numeric variables.
@@ -416,10 +416,10 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 - **Climate isolation:**
     - Weak correlations (**0.07–0.32**) show climate is largely independent of other metrics.
     - **Climate:** Weather and climate don’t really affect other factors—they are mostly independent.
-
+<details>
 
 ## V. Recommendations
-
+<details>
 ### 1. Adding New Data for More Accurate Recommendations
 
 Integrating new variables will provide more comprehensive and relevant analyses:
@@ -445,9 +445,9 @@ To make the platform more intuitive and accessible:
 - **Smooth and fast navigation:** A responsive interface with customization options to tailor results to specific user needs.
 - **Dynamic results display:** Interactive charts and maps for clear and immediate data visualization.
 - **Mobile accessibility:** Optimized for smartphones so users can access the data anytime.
-
+<details>
 ## VI. Limitations
-
+<details>
 While CitySpot provides valuable insights, several limitations must be acknowledged:
 
 1. **Data availability and coverage:**
@@ -459,9 +459,9 @@ While CitySpot provides valuable insights, several limitations must be acknowled
     - Metrics such as quality of life, climate comfort, and social acceptance may involve subjective reporting and cultural bias.
 4. **Limited consideration of personal circumstances:**
     - The analysis does not factor in individual-specific preferences such as job market, language, visa requirements, or family needs.
-
+<details>
 ## VII. Conclusion
-
+<details>
 CitySpot demonstrates that multi-source data can effectively guide individuals in choosing cities that match their lifestyle and priorities. The analysis reveals that:
 
 - **Cost of living alone is not a reliable indicator of quality of life**; affordable cities can still offer excellent healthcare, safety, and overall well-being.
@@ -469,7 +469,7 @@ CitySpot demonstrates that multi-source data can effectively guide individuals i
 - **Regional patterns** show Europe tends to offer premium healthcare at higher costs, while Asia often provides high quality of life at lower costs.
 
 Overall, CitySpot illustrates how rigorous data analysis and interactive visualization can transform complex datasets into actionable insights, enabling informed, data-driven relocation decisions.
-
+<details>
 ## VIII. Dashboard
 
   <img src="Images/Cityspot_dashboard.png" alt="Images/Cityspot_dashboard.png" width="1000">
