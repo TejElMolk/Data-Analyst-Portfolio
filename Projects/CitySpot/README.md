@@ -254,8 +254,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 - Normalized all indices to place variables on a consistent scale for comparison.
 
 **Cost of Living Index**  
-![Cost of Living Index](https://raw.githubusercontent.com/TejElMolk/Data-Analyst-Portfolio/main/Projects/CitySpot/Images/Cost_of_living_index.png)
-
+![](Projects/CitySpot/Images/Cost_of_living_index.png)
 
 **Insights**  
 - **Two-peak distribution:** Two distinct peaks around 35 and 65, suggesting two city groups  
