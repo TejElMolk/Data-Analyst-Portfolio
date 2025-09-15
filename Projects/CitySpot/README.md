@@ -428,9 +428,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
     - Weak correlations (**0.07–0.32**) show climate is largely independent of other metrics.
     - **Climate:** Weather and climate don’t really affect other factors—they are mostly independent.
 
-</details>
 
-<details>
     
 ## V. Recommendations</strong></summary>
 
@@ -453,9 +451,7 @@ To make the platform more intuitive and accessible:
 - **Dynamic results display:** Interactive charts and maps for clear and immediate data visualization.
 - **Mobile accessibility:** Optimized for smartphones so users can access the data anytime.
 
-</details>
 
-<details>
     
 ## VI. Limitations</strong></summary>
 
@@ -471,9 +467,6 @@ While CitySpot provides valuable insights, several limitations must be acknowled
 4. **Limited consideration of personal circumstances:**
     - The analysis does not factor in individual-specific preferences such as job market, language, visa requirements, or family needs.
 
-</details>
-
-<details>
     
 ## VII. Conclusion</strong></summary>
 
@@ -485,10 +478,8 @@ CitySpot demonstrates that multi-source data can effectively guide individuals i
 
 Overall, CitySpot illustrates how rigorous data analysis and interactive visualization can transform complex datasets into actionable insights, enabling informed, data-driven relocation decisions.
 
-</details>
 
-<details>
-<summary style="font-size:1.5em; font-weight:bold;">VIII. Dashboard</strong></summary> 
+## VIII. Dashboard</strong></summary> 
 
 <img src="Images/Cityspot_dashboard.png" alt="Images/Cityspot_dashboard.png" width="1000">
 
