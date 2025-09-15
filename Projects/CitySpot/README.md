@@ -246,8 +246,11 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 
 ## IV. Exploratory Data Analysis (EDA)
 
+
+### **1. Univariate Analysis**
+    
 <details>
-<summary><strong>1. Univariate Analysis</strong></summary>
+<summary><strong>Analysis</strong></summary>
 
 **Purpose:** Understand the distribution and dispersion of each index.
     
@@ -408,7 +411,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 
 </details>
 
-### **3. Multivariate Analysis / Correlation Heatmap**
+### **3. Multivariate Analysis**
 <details>
 <summary><strong>Purpose</strong></summary>
 **Purpose:** Identify interactions among multiple indices simultaneously.
