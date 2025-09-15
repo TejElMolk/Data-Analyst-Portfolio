@@ -259,18 +259,16 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
    <table>
   <tr>
     <td>
-      <img src="Images/Cost_of_living_index.png" alt="Cost of Living Index" width="400">
+      <img src="Images/Cost_of_living_index.png" alt="Cost of Living Index" width="500">
       <p align="center"><i>Cost of Living Index</i></p>
     </td>
     <td>
-      <img src="Images/Cost_of_living box plot.png" alt="Cost of Living Box Plot" width="400">
+      <img src="Images/Cost_of_living box plot.png" alt="Cost of Living Box Plot" width="500">
       <p align="center"><i>Cost of Living Box Plot</i></p>
     </td>
   </tr>
 </table>
 
-    
-    
 **Insights**  
     - **Two-peak distribution:** Two distinct peaks around 35 and 65, suggesting two city groups  
     - **Mean (54.02) > Median (53.7):** Slightly right-skewed distribution  
@@ -281,7 +279,20 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 
 
 **B-Freedom Score Index**  
-    
+
+   <table>
+  <tr>
+    <td>
+      <img src="Freedom_score_index.png" alt="Freedom_score Index" width="500">
+      <p align="center"><i>Freedom_score Index</i></p>
+    </td>
+    <td>
+      <img src="Freedom_score_box_plot.png" alt="Freedom_score Box Plot" width="500">
+      <p align="center"><i>Freedom_score Box Plot</i></p>
+    </td>
+  </tr>
+</table>
+
 **Insights** 
     - **Heavily left-skewed distribution:** Massive concentration of cities in high scores (80-100)  
     - **Mean (77.28) < Median (89.0):** Confirms negative asymmetry  
@@ -291,8 +302,20 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
     - **Limited differentiating criterion:** Political freedom won't be a major discriminating factor for most comparisons  
 
 **C-Food Price Index**  
-    
-    
+
+ <table>
+  <tr>
+    <td>
+      <img src="Groceries_index.png" alt="Groceries Index" width="500">
+      <p align="center"><i>Groceries Index</i></p>
+    </td>
+    <td>
+      <img src="Groceries_box_plot.png" alt="Groceries Box Plot" width="500">
+      <p align="center"><i>Groceries Box Plot</i></p>
+    </td>
+  </tr>
+</table>
+
  **Insights** 
     - **Slightly skewed normal distribution:** Bell-shaped with right tail  
     - **Mean (52.06) > Median (49.3):** Positive asymmetry confirmed  
