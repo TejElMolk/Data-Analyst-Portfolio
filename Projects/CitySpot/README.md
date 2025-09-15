@@ -256,10 +256,9 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 **Cost of Living Index**  
 
 
-
 <img src="Projects/CitySpot/Images/Cost_of_living_index.png" alt="Cost of Living Index" width="600">
 
-<p align="center"><i>Aperçu du dashboard - taille moyenne</i></p>
+<p align="center"><i>Aperçu du dashboard</i></p>
 
 
 **Insights**  
