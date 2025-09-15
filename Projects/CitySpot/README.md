@@ -1,9 +1,7 @@
-<details>
-  <summary></summary>
-  <div style="text-align:center; margin-top:10px;">
-    <img src="Images/CitySpot.png" alt="CitySpot.png" width="600">
-  </div>
-</details>
+<div style="text-align:center;">
+  <img src="Images/CitySpot.png" alt="CitySpot.png" width="600">
+</div>
+
 
 
 ## I. Introduction
