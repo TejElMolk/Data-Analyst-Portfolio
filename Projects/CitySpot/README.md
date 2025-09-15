@@ -246,18 +246,17 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 
 ## IV. Exploratory Data Analysis (EDA)
 
-<details>
-<summary><strong>1. Univariate Analysis</strong></summary>
+### **1. Univariate Analysis**
 
 **Purpose:** Understand the distribution and dispersion of each index.
     
 - Visualized distributions of key indices to detect outliers and variability.
 - Normalized all indices to place variables on a consistent scale for comparison.
-
-<details>
-<summary><strong>A-Cost of Living Index</strong></summary>
-
-<table>
+    
+**A-Cost of Living Index**  
+    
+    
+   <table>
   <tr>
     <td>
       <img src="Images/Cost_of_living_index.png" alt="Cost of Living Index" width="500">
@@ -277,12 +276,11 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 - **Outliers present:** Few cities with extremely high living costs (>100)  
 - **Natural segmentation:** Clear distinction between "affordable" cities (peak at 35) vs "expensive" cities (peak at 65)  
 
-</details>
 
-<details>
-<summary><strong>B-Freedom Score Index</strong></summary>
 
-<table>
+**B-Freedom Score Index**  
+
+   <table>
   <tr>
     <td>
       <img src="Images/Freedom_score_index.png" alt="Freedom_score Index" width="500">
@@ -303,12 +301,11 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 - **Positive selection bias:** Sample seems to favor cities from democratic/free countries  
 - **Limited differentiating criterion:** Political freedom won't be a major discriminating factor for most comparisons  
 
-</details>
 
-<details>
-<summary><strong>C-Food Price Index</strong></summary>
 
-<table>
+**C-Food Price Index**  
+
+ <table>
   <tr>
     <td>
       <img src="Images/Groceries_index.png" alt="Groceries Index" width="500">
@@ -321,74 +318,67 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
   </tr>
 </table>
 
-**Insights** 
+ **Insights** 
 - **Slightly skewed normal distribution:** Bell-shaped with right tail  
 - **Mean (52.06) > Median (49.3):** Positive asymmetry confirmed  
 - **Mode at 25.4:** Concentration of cities with very affordable food prices  
 - **Moderate standard deviation (20.39):** Reasonable variability between cities  
 - **Food budget segmentation:** Three natural groups emerge (affordable <40, medium 40-60, expensive >60)  
 - **Outliers to monitor:** Few cities with extremely high food prices (>100)  
+    
 
-</details>
-</details>
-
-<details>
-<summary><strong>2. Bivariate Analysis</strong></summary>
+### **2. Bivariate Analysis**
 
 **Purpose:** Explore relationships between two variables.
 
 - Examined correlations between key indices:
+    
+    ### **Cost of Living Index vs. Quality of Life Index**
+    
+    <img src="Images/Cost of Living Index vs. Quality of Life Index.png" alt="Cost of Living Index vs. Quality of Life Index.png" width="500">
+    
+  **Insight :** 
+    
+    - **No clear linear relationship**: Scattered distribution with wide variability
+    - **Sweet spot zone (30-50 cost, 70-90 quality)**: Dense concentration of cities offering good value
+    - Cities with high cost (80-100) but varying quality levels
+    - There is a few cities with very poor quality of life (<20)
+    - Cities in the 30-50 cost range often deliver high quality of life
+    - High-cost cities don't guarantee proportional quality gains
+    
+    ### **Healthcare Index vs. Cost of Living Index**
+    
+    <img src="Images/Healthcare Index vs. Cost of Living Index.png" alt="Healthcare Index vs. Cost of Living Index.png" width="500">
+    
+  **Insight :** 
+    
+    - **Weak positive correlation**: Slight upward trend but significant scatter
+    - Best healthcare (80-100) available in 30-50 cost range
+    - **Cost doesn't guarantee healthcare**: Expensive cities don't always have superior healthcare
+    - Several low-cost cities offer good healthcare (60-80 range)
+    - Mid-cost cities often provide excellent healthcare access
+    - High cost of living doesn't equal better medical services
+    
+    ### **Climate Index vs. Quality of Life Index**
+    
+  <img src="Images/Climate Index vs. Quality of Life Index.png" alt="Climate Index vs. Quality of Life Index.png" width="500">
 
-<details>
-<summary>Cost of Living Index vs. Quality of Life Index</summary>
+    
+  **Insight :** 
+    
+    - **Positive correlation trend**: Better climate generally associates with higher quality of life
+    - Most cities cluster in 60-100 climate range
+    - Even with excellent climate, quality varies significantly
+    - **Few extreme climate cities**: Limited data points below 40 climate index
+    - **Climate as baseline filter**: Good climate appears fundamental for high quality of life
+    
+    ### **The relationship between Cost of Living and Health care per Continent and City**
+    
+  <img src="Images/Cost of Living and Health care.png" alt="Cost of Living and Health care.png" width="500">
 
-<img src="Images/Cost of Living Index vs. Quality of Life Index.png" alt="Cost of Living Index vs. Quality of Life Index.png" width="500">
+    
+    **Insight :** 
 
-**Insight :** 
-- **No clear linear relationship**: Scattered distribution with wide variability
-- **Sweet spot zone (30-50 cost, 70-90 quality)**: Dense concentration of cities offering good value
-- Cities with high cost (80-100) but varying quality levels
-- There is a few cities with very poor quality of life (<20)
-- Cities in the 30-50 cost range often deliver high quality of life
-- High-cost cities don't guarantee proportional quality gains
-
-</details>
-
-<details>
-<summary>Healthcare Index vs. Cost of Living Index</summary>
-
-<img src="Images/Healthcare Index vs. Cost of Living Index.png" alt="Healthcare Index vs. Cost of Living Index.png" width="500">
-
-**Insight :** 
-- **Weak positive correlation**: Slight upward trend but significant scatter
-- Best healthcare (80-100) available in 30-50 cost range
-- **Cost doesn't guarantee healthcare**: Expensive cities don't always have superior healthcare
-- Several low-cost cities offer good healthcare (60-80 range)
-- Mid-cost cities often provide excellent healthcare access
-- High cost of living doesn't equal better medical services
-
-</details>
-
-<details>
-<summary>Climate Index vs. Quality of Life Index</summary>
-
-<img src="Images/Climate Index vs. Quality of Life Index.png" alt="Climate Index vs. Quality of Life Index.png" width="500">
-
-**Insight :** 
-- **Positive correlation trend**: Better climate generally associates with higher quality of life
-- Most cities cluster in 60-100 climate range
-- Even with excellent climate, quality varies significantly
-- **Few extreme climate cities**: Limited data points below 40 climate index
-- **Climate as baseline filter**: Good climate appears fundamental for high quality of life
-
-</details>
-
-<details>
-<summary>The relationship between Cost of Living and Health care per Continent and City</summary>
-
-<img src="Images/Cost of Living and Health care.png" alt="Cost of Living and Health care.png" width="500">
-
-**Insight :** 
 - **European dominance in high healthcare**: Green dots (Europe) concentrated in 60-80+ healthcare range
 - **American cost variation**: Black dots (Americas) show wide cost spread with moderate healthcare
 - **Asian efficiency clusters**: Gray dots showing good healthcare at lower costs
@@ -401,20 +391,19 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 - **African hidden gems**:
     - **Kigali (Rwanda)**: Healthcare score (65) equivalent to Brussels or Toronto, but much lower cost (7)
 
-</details>
-</details>
+---
 
-<details>
-<summary><strong>3. Multivariate Analysis / Correlation Heatmap</strong></summary>
+### **3. Multivariate Analysis / Correlation Heatmap**
 
 **Purpose:** Identify interactions among multiple indices simultaneously.
 
 - Generated a correlation matrix to evaluate relationships across all numeric variables.
 - Highlighted the most relevant factors influencing Quality of Life.
 
-<img src="Correlation Heatmap.png" alt="Correlation Heatmap.png" width="500">
+  <img src="Correlation Heatmap.png" alt="Correlation Heatmap.png" width="500">
 
-**Insight :** 
+    **Insight :** 
+
 - **Quality of life drivers:**
     - Strongly linked to **Local purchasing power (0.76)** and **Freedom score (0.55)**. Higher scores mean better quality of life.
     - **Quality of life:** People have a better life where they have more money to spend and more personal freedom.
@@ -429,31 +418,35 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
     - **Climate:** Weather and climate don’t really affect other factors—they are mostly independent.
 
 
-    
-## V. Recommendations</strong></summary>
+## V. Recommendations
 
 ### 1. Adding New Data for More Accurate Recommendations
+
 Integrating new variables will provide more comprehensive and relevant analyses:
+
 - **Housing Costs:** Average rent or property prices in different cities to assess real estate affordability.
 - **Economic Opportunities:** Labor market conditions, ease of investment, and local taxation.
 - **Connectivity:** Access to flights, internet quality, and transportation infrastructure.
+
 These additional data points will allow users and businesses to compare cities more thoroughly and make informed decisions based on diverse criteria.
 
 ### 2. Automated Data Updates via API
+
 Using APIs will allow:
+
 - Access to **always up-to-date data** without manual updates.
 - **Real-time monitoring** of trends and changes.
 - **Time savings** and reduction of errors due to outdated information.
 
 ### 3. Improving User Experience
+
 To make the platform more intuitive and accessible:
+
 - **Smooth and fast navigation:** A responsive interface with customization options to tailor results to specific user needs.
 - **Dynamic results display:** Interactive charts and maps for clear and immediate data visualization.
 - **Mobile accessibility:** Optimized for smartphones so users can access the data anytime.
 
-
-    
-## VI. Limitations</strong></summary>
+## VI. Limitations
 
 While CitySpot provides valuable insights, several limitations must be acknowledged:
 
@@ -467,8 +460,7 @@ While CitySpot provides valuable insights, several limitations must be acknowled
 4. **Limited consideration of personal circumstances:**
     - The analysis does not factor in individual-specific preferences such as job market, language, visa requirements, or family needs.
 
-    
-## VII. Conclusion</strong></summary>
+## VII. Conclusion
 
 CitySpot demonstrates that multi-source data can effectively guide individuals in choosing cities that match their lifestyle and priorities. The analysis reveals that:
 
@@ -478,9 +470,7 @@ CitySpot demonstrates that multi-source data can effectively guide individuals i
 
 Overall, CitySpot illustrates how rigorous data analysis and interactive visualization can transform complex datasets into actionable insights, enabling informed, data-driven relocation decisions.
 
+## VIII. Dashboard
 
-## VIII. Dashboard</strong></summary> 
+  <img src="Images/Cityspot_dashboard.png" alt="Images/Cityspot_dashboard.png" width="1000">
 
-<img src="Images/Cityspot_dashboard.png" alt="Images/Cityspot_dashboard.png" width="1000">
-
-</details>
