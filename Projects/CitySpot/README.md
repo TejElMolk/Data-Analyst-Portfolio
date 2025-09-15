@@ -427,7 +427,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 <details>
 <summary><strong>Correlation Heatmap</strong></summary>
 
-<img src="Correlation Heatmap.png" alt="Correlation Heatmap.png" width="500">
+<img src="Images/Correlation Heatmap.png" alt="Correlation Heatmap.png" width="500">
 
 **Insight :** 
 
@@ -448,9 +448,9 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 
 
 ## V. Recommendations
-<details>
-<summary><strong>1. Adding New Data for More Accurate Recommendations</strong></summary>
-</details>
+
+### 1. Adding New Data for More Accurate Recommendations
+
 Integrating new variables will provide more comprehensive and relevant analyses:
 
 - **Housing Costs:** Average rent or property prices in different cities to assess real estate affordability.
@@ -459,29 +459,22 @@ Integrating new variables will provide more comprehensive and relevant analyses:
 
 These additional data points will allow users and businesses to compare cities more thoroughly and make informed decisions based on diverse criteria.
 
-</details>
+### 2. Automated Data Updates via API
 
-<details>
-<summary><strong>2. Automated Data Updates via API</strong></summary>
-</details>
 Using APIs will allow:
 
 - Access to **always up-to-date data** without manual updates.
 - **Real-time monitoring** of trends and changes.
 - **Time savings** and reduction of errors due to outdated information.
 
-</details>
+### 3. Improving User Experience
 
-<details>
-<summary><strong>3. Improving User Experience</strong></summary>
-</details>
 To make the platform more intuitive and accessible:
 
 - **Smooth and fast navigation:** A responsive interface with customization options to tailor results to specific user needs.
 - **Dynamic results display:** Interactive charts and maps for clear and immediate data visualization.
 - **Mobile accessibility:** Optimized for smartphones so users can access the data anytime.
 
-</details>
 
 ## VI. Limitations
 
