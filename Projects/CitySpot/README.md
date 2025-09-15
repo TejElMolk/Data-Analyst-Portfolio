@@ -252,6 +252,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 <details>
 <summary><strong>Analysis</strong></summary>
 
+
 **Purpose:** Understand the distribution and dispersion of each index.
     
 - Visualized distributions of key indices to detect outliers and variability.
@@ -338,7 +339,8 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 ### **2. Bivariate Analysis**
 <details>
 <summary><strong>Purpose</strong></summary>
-**Purpose:** Explore relationships between two variables.
+    
+**Purpose:**  Explore relationships between two variables.
 
 - Examined correlations between key indices:
 </details>
@@ -413,8 +415,10 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 
 ### **3. Multivariate Analysis**
 <details>
+    
 <summary><strong>Purpose</strong></summary>
-**Purpose:** Identify interactions among multiple indices simultaneously.
+    
+**Purpose:**  Identify interactions among multiple indices simultaneously.
 
 - Generated a correlation matrix to evaluate relationships across all numeric variables.
 - Highlighted the most relevant factors influencing Quality of Life.
