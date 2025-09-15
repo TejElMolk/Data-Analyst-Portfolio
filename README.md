@@ -25,9 +25,6 @@ This repository showcases my **portfolio projects**, my skills, education, certi
 ## Portfolio Projects
 Here is a brief overview of my projects. Click on the links to see the full project details.
 
-## Portfolio Projects
-Here is a brief overview of my projects. Click on the links to see the full project details.
-
 ### 1. Cityspot
 **Pitch Project:**  
 CitySpot is a data-driven project designed to help individuals choose the best city to live in based on their lifestyle and priorities. By aggregating global data on cost of living, safety, healthcare, climate, and inclusivity, CitySpot transforms raw information into actionable insights. Using Python for data cleaning and EDA, and Power BI for interactive visualization, the project enables users to easily compare cities and discover their ideal destination.
@@ -109,36 +106,52 @@ Shows strong growth in revenue and orders driven by new customers and popular pr
 ---
 
 ## Skills
-    - Skill 1 
-    - Skill 1 
-    - Skill 1 
-    - Skill 1 
+
+- **Data Cleaning & Preparation**
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Statistical Analysis
+- Data Modeling (Clustering, Classification)
+- Dashboard & Reporting
 
 ---
 
-## Tools
-    - SQL (Postgres , MySQL)
-    - Excel 
-    - Power Query
-    - Python (Pandas , matplot ..) Jupyter , Google Collab , VSCode
-    - Looker (Google)
-    - Power BI
-    - Tableau
+## Tools & Technologies
+
+- **SQL:** PostgreSQL, MySQL  
+- **Python:** Pandas, Matplotlib, Seaborn, Jupyter, Google Colab, VS Code  
+- **Excel & Power Query**  
+- **BI & Visualization:** Power BI, Tableau, Looker Studio  
+- **Other:** Data Transformation, Pivot Tables, Interactive Dashboards
+
 
 ---
 
 ## Education
-    - Jedha Bootcamp : Data Analytics
-    - Master in International Trade, IAE Nice  
-    - Management Degree, IHEC Tunis  
+
+- **Jedha Bootcamp – Data Analytics (State Certified)**  
+  Intensive hands-on program covering Python, SQL, Excel, data cleaning, EDA, visualization, and dashboards. Completed with a state-recognized certification.
+
+- **Master in International Trade**, IAE Nice  
+  Focused on international business, trade analysis, and market research.
+
+- **Management Degree**, IHEC Tunis  
+  Provided a strong foundation in business, management, and analytical thinking.
+
 
 ---
 
 ## Certificates
-    - Google Data Analytics  Certificate  
+
+- **CMS for Data Hub – HubSpot Academy**  
+
+- **Google Analytics Certification**  
+
+- **Data Science Developer & Designer – Jedha Bootcamp (Modules 2 & 6)**  
+
 
 ---
 
 ## Contact
-- LinkedIn: [@TejElMolkEnnouri](https://www.linkedin.com/in/TejElMolkEnnouri)  
+- LinkedIn: [@TejElMolkEnnouri](https://www.linkedin.com/in/tej-el-molk-ennouri/)  
 - Email: tejelmolkennour@gmail.com
