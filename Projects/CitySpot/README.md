@@ -246,7 +246,7 @@ This section describes the **data exploration and validation** performed on the 
 
 <details>
 <summary><strong>STEP 7 – Power Query Cleaning</strong></summary>
-
+<details>
   <img src="Images/CitySpot_power_query.png" alt="CitySpot_power_query.png" width="800">
 
 - After exporting to Power Query, additional cleaning steps included:
