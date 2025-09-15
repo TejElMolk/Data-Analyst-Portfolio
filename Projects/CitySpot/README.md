@@ -1,6 +1,6 @@
-<div style="text-align:center;">
-  <img src="Images/CitySpot.png" alt="CitySpot.png" width="600">
-</div>
+<p align="center">
+  <img src="Images/CitySpot.png" alt="CitySpot" width="400">
+</p>
 
 
 
