@@ -6,7 +6,6 @@
 
 
 ## About
-Hi, I'm Molka! I have a background in Management and International Trade, and I am passionate about using data to uncover insights, especially in E-commerce and digital trends in Southeast Asia. I enjoy analyzing datasets, visualizing results, and sharing actionable insights.
 
 
 ---
@@ -151,3 +150,4 @@ Shows strong growth in revenue and orders driven by new customers and popular pr
 ## Contact
 - **LinkedIn**: [@TejElMolkEnnouri](https://www.linkedin.com/in/tej-el-molk-ennouri/)  
 - **Email**: tejelmolkennour@gmail.com
+- **Website**: [https://www.tonsitewix.com](https://www.tonsitewix.com)
