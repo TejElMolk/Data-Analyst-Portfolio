@@ -348,7 +348,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
     
     ### **Healthcare Index vs. Cost of Living Index**
     
-    ![Capture d’écran](citySpot/images/Capture_decran_2025-09-15_a_12.05.12.png)
+    <img src="Images/Healthcare Index vs. Cost of Living Index.png" alt="Healthcare Index vs. Cost of Living Index.png" width="500">
     
   **Insight :** 
     
@@ -361,7 +361,8 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
     
     ### **Climate Index vs. Quality of Life Index**
     
-    ![Capture d’écran](citySpot/images/Capture_decran_2025-09-15_a_12.05.20.png)
+  <img src="Images/Climate Index vs. Quality of Life Index.png" alt="Climate Index vs. Quality of Life Index.png" width="500">
+
     
   **Insight :** 
     
@@ -373,7 +374,8 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
     
     ### **The relationship between Cost of Living and Health care per Continent and City**
     
-    ![Capture d’écran](citySpot/images/Capture_decran_2025-09-15_a_11.49.47.png)
+  <img src="Images/Cost of Living and Health care.png" alt="Cost of Living and Health care.png" width="500">
+
     
     **Insight :** 
 
@@ -398,7 +400,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 - Generated a correlation matrix to evaluate relationships across all numeric variables.
 - Highlighted the most relevant factors influencing Quality of Life.
 
-![Capture d’écran](citySpot/images/Capture_decran_2025-09-15_a_11.43.58.png)
+  <img src="Correlation Heatmap.png" alt="Correlation Heatmap.png" width="500">
 
     **Insight :** 
 
@@ -415,4 +417,60 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
     - Weak correlations (**0.07–0.32**) show climate is largely independent of other metrics.
     - **Climate:** Weather and climate don’t really affect other factors—they are mostly independent.
 
+
+## V. Recommendations
+
+### 1. Adding New Data for More Accurate Recommendations
+
+Integrating new variables will provide more comprehensive and relevant analyses:
+
+- **Housing Costs:** Average rent or property prices in different cities to assess real estate affordability.
+- **Economic Opportunities:** Labor market conditions, ease of investment, and local taxation.
+- **Connectivity:** Access to flights, internet quality, and transportation infrastructure.
+
+These additional data points will allow users and businesses to compare cities more thoroughly and make informed decisions based on diverse criteria.
+
+### 2. Automated Data Updates via API
+
+Using APIs will allow:
+
+- Access to **always up-to-date data** without manual updates.
+- **Real-time monitoring** of trends and changes.
+- **Time savings** and reduction of errors due to outdated information.
+
+### 3. Improving User Experience
+
+To make the platform more intuitive and accessible:
+
+- **Smooth and fast navigation:** A responsive interface with customization options to tailor results to specific user needs.
+- **Dynamic results display:** Interactive charts and maps for clear and immediate data visualization.
+- **Mobile accessibility:** Optimized for smartphones so users can access the data anytime.
+
+## VI. Limitations
+
+While CitySpot provides valuable insights, several limitations must be acknowledged:
+
+1. **Data availability and coverage:**
+    - Some indices (e.g., traffic, pollution) had missing values, which may limit the analysis for certain cities.
+    - Data sources are uneven across regions, favoring developed or well-documented cities.
+2. **Static snapshot:**
+    - Indices reflect a specific point in time and may not capture seasonal variations, recent policy changes, or sudden economic shifts.
+3. **Subjectivity of certain indices:**
+    - Metrics such as quality of life, climate comfort, and social acceptance may involve subjective reporting and cultural bias.
+4. **Limited consideration of personal circumstances:**
+    - The analysis does not factor in individual-specific preferences such as job market, language, visa requirements, or family needs.
+
+## VII. Conclusion
+
+CitySpot demonstrates that multi-source data can effectively guide individuals in choosing cities that match their lifestyle and priorities. The analysis reveals that:
+
+- **Cost of living alone is not a reliable indicator of quality of life**; affordable cities can still offer excellent healthcare, safety, and overall well-being.
+- **Safety, healthcare, climate, and social inclusion** are the primary factors influencing a city’s attractiveness.
+- **Regional patterns** show Europe tends to offer premium healthcare at higher costs, while Asia often provides high quality of life at lower costs.
+
+Overall, CitySpot illustrates how rigorous data analysis and interactive visualization can transform complex datasets into actionable insights, enabling informed, data-driven relocation decisions.
+
+## VIII. Dashboard
+
+  <img src="Cityspot_dashboard.png" alt="Cityspot_dashboard.png" width="500">
 
