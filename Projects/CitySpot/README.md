@@ -472,5 +472,5 @@ Overall, CitySpot illustrates how rigorous data analysis and interactive visuali
 
 ## VIII. Dashboard
 
-  <img src="Images/Cityspot_dashboard.png" alt="Images/Cityspot_dashboard.png" width="500">
+  <img src="Images/Cityspot_dashboard.png" alt="Images/Cityspot_dashboard.png" width="1000">
 
