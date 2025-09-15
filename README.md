@@ -2,7 +2,8 @@
 
 
 
-# Tej El Molk Ennouri - Data Analyst Portfolio
+
+
 
 ## About
 Hi, I'm Molka! I have a background in Management and International Trade, and I am passionate about using data to uncover insights, especially in E-commerce and digital trends in Southeast Asia. I enjoy analyzing datasets, visualizing results, and sharing actionable insights.
