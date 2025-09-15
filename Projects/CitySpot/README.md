@@ -301,6 +301,8 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 - **Positive selection bias:** Sample seems to favor cities from democratic/free countries  
 - **Limited differentiating criterion:** Political freedom won't be a major discriminating factor for most comparisons  
 
+
+
 **C-Food Price Index**  
 
  <table>
@@ -324,5 +326,93 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 - **Food budget segmentation:** Three natural groups emerge (affordable <40, medium 40-60, expensive >60)  
 - **Outliers to monitor:** Few cities with extremely high food prices (>100)  
     
+
+### **2. Bivariate Analysis**
+
+**Purpose:** Explore relationships between two variables.
+
+- Examined correlations between key indices:
     
+    ### **Cost of Living Index vs. Quality of Life Index**
+    
+    <img src="Images/Cost of Living Index vs. Quality of Life Index.png" alt="Cost of Living Index vs. Quality of Life Index.png" width="500">
+    
+  **Insight :** 
+    
+    - **No clear linear relationship**: Scattered distribution with wide variability
+    - **Sweet spot zone (30-50 cost, 70-90 quality)**: Dense concentration of cities offering good value
+    - Cities with high cost (80-100) but varying quality levels
+    - There is a few cities with very poor quality of life (<20)
+    - Cities in the 30-50 cost range often deliver high quality of life
+    - High-cost cities don't guarantee proportional quality gains
+    
+    ### **Healthcare Index vs. Cost of Living Index**
+    
+    ![Capture d’écran](citySpot/images/Capture_decran_2025-09-15_a_12.05.12.png)
+    
+  **Insight :** 
+    
+    - **Weak positive correlation**: Slight upward trend but significant scatter
+    - Best healthcare (80-100) available in 30-50 cost range
+    - **Cost doesn't guarantee healthcare**: Expensive cities don't always have superior healthcare
+    - Several low-cost cities offer good healthcare (60-80 range)
+    - Mid-cost cities often provide excellent healthcare access
+    - High cost of living doesn't equal better medical services
+    
+    ### **Climate Index vs. Quality of Life Index**
+    
+    ![Capture d’écran](citySpot/images/Capture_decran_2025-09-15_a_12.05.20.png)
+    
+  **Insight :** 
+    
+    - **Positive correlation trend**: Better climate generally associates with higher quality of life
+    - Most cities cluster in 60-100 climate range
+    - Even with excellent climate, quality varies significantly
+    - **Few extreme climate cities**: Limited data points below 40 climate index
+    - **Climate as baseline filter**: Good climate appears fundamental for high quality of life
+    
+    ### **The relationship between Cost of Living and Health care per Continent and City**
+    
+    ![Capture d’écran](citySpot/images/Capture_decran_2025-09-15_a_11.49.47.png)
+    
+    **Insight :** 
+
+- **European dominance in high healthcare**: Green dots (Europe) concentrated in 60-80+ healthcare range
+- **American cost variation**: Black dots (Americas) show wide cost spread with moderate healthcare
+- **Asian efficiency clusters**: Gray dots showing good healthcare at lower costs
+- **African value positioning**: Blue dots in low-cost, moderate healthcare zone
+- **European healthcare premium**: Higher costs but consistently strong healthcare systems
+- **Asia's competitive advantage**: Competitive healthcare quality at lower living costs
+    - **Jakarta**: Excellent quality of life (90) with very low cost (12)
+    - **Chiang Mai**: Excellent healthcare (85) with low cost of living (13)
+    - **Lausanne comparison**: Similar quality of life to Jakarta but among most expensive cities (97)
+- **African hidden gems**:
+    - **Kigali (Rwanda)**: Healthcare score (65) equivalent to Brussels or Toronto, but much lower cost (7)
+
+---
+
+### **3. Multivariate Analysis / Correlation Heatmap**
+
+**Purpose:** Identify interactions among multiple indices simultaneously.
+
+- Generated a correlation matrix to evaluate relationships across all numeric variables.
+- Highlighted the most relevant factors influencing Quality of Life.
+
+![Capture d’écran](citySpot/images/Capture_decran_2025-09-15_a_11.43.58.png)
+
+    **Insight :** 
+
+- **Quality of life drivers:**
+    - Strongly linked to **Local purchasing power (0.76)** and **Freedom score (0.55)**. Higher scores mean better quality of life.
+    - **Quality of life:** People have a better life where they have more money to spend and more personal freedom.
+- **Healthcare independence:**
+    - Moderate correlations (**0.26–0.56**) show healthcare operates mostly independently of other factors.
+    - **Healthcare:** Health services matter, but they work mostly on their own and don’t depend much on other factors.
+- **Safety patterns:**
+    - Very strong negative correlation with **Crime (-0.90)**. Other factors have little effect on safety.
+    - **Safety:** Safety drops a lot when crime is high, but it isn’t strongly linked to other things like money or climate.
+- **Climate isolation:**
+    - Weak correlations (**0.07–0.32**) show climate is largely independent of other metrics.
+    - **Climate:** Weather and climate don’t really affect other factors—they are mostly independent.
+
 
