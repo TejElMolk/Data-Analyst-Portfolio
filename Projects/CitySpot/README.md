@@ -348,7 +348,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 <details>
 <summary><strong>Cost of Living Index vs. Quality of Life Index</strong></summary>
 
-<img src="Images/Cost of Living Index vs. Quality of Life Index.png" alt="Cost of Living Index vs. Quality of Life Index.png" width="500">
+<img src="Images/Cost of Living Index vs. Quality of Life Index.png" alt="Cost of Living Index vs. Quality of Life Index.png" width="600">
 
 **Insight :** 
     
@@ -364,7 +364,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 <details>
 <summary><strong>Healthcare Index vs. Cost of Living Index</strong></summary>
 
-<img src="Images/Healthcare Index vs. Cost of Living Index.png" alt="Healthcare Index vs. Cost of Living Index.png" width="500">
+<img src="Images/Healthcare Index vs. Cost of Living Index.png" alt="Healthcare Index vs. Cost of Living Index.png" width="600">
 
 **Insight :** 
     
@@ -380,7 +380,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 <details>
 <summary><strong>Climate Index vs. Quality of Life Index</strong></summary>
 
-<img src="Images/Climate Index vs. Quality of Life Index.png" alt="Climate Index vs. Quality of Life Index.png" width="500">
+<img src="Images/Climate Index vs. Quality of Life Index.png" alt="Climate Index vs. Quality of Life Index.png" width="600">
 
 **Insight :** 
     
@@ -395,7 +395,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 <details>
 <summary><strong>The relationship between Cost of Living and Health care per Continent and City</strong></summary>
 
-<img src="Images/Cost of Living and Health care.png" alt="Cost of Living and Health care.png" width="500">
+<img src="Images/Cost of Living and Health care.png" alt="Cost of Living and Health care.png" width="600">
 
 **Insight :** 
 
@@ -427,7 +427,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 <details>
 <summary><strong>Correlation Heatmap</strong></summary>
 
-<img src="Images/Correlation Heatmap.png" alt="Correlation Heatmap.png" width="500">
+<img src="Images/Correlation Heatmap.png" alt="Correlation Heatmap.png" width="600">
 
 **Insight :** 
 
