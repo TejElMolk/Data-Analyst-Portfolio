@@ -1,0 +1,43 @@
+let
+Source = Csv.Document(File.Contents("C:\Users\tejelmolk\OneDrive\Bureau\NETFLIX\netflix_titles.csv"),[Delimiter=",", Columns=12, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+#"En tête" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+#"Release_year : change data type" = Table.TransformColumnTypes(#"En tête",{{"show_id", type text}, {"type", type text}, {"title", type text}, {"director", type text}, {"cast", type text}, {"country", type text}, {"date_added", type date}, {"release_year", Int64.Type}, {"rating", type text}, {"duration", type text}, {"listed_in", type text}, {"description", type text}}),
+#"Description : Delete the column" = Table.RemoveColumns(#"Release_year : change data type",{"description"}),
+#"Show_id : replace 's' by nothing" = Table.ReplaceValue(#"Description : Delete the column","s","",Replacer.ReplaceText,{"show_id"}),
+#"‘Ratings’ = ‘Content Advisory’ & 'listed_in' = 'Genres'" = Table.RenameColumns(#"Show_id : replace 's' by nothing",{{"rating", "Content Advisory"}, {"listed_in", "Genres"}}),
+#"Filter on cast and director null" = Table.Sort(#"‘Ratings’ = ‘Content Advisory’ & 'listed_in' = 'Genres'",{{"cast", Order.Ascending}, {"date_added", Order.Ascending}}),
+#"Filter content advisory from A_to_Z" = Table.Sort(#"Filter on cast and director null",{{"Content Advisory", Order.Ascending}}),
+#"Replace 66 min in content advisory by blank" = Table.ReplaceValue(#"Filter content advisory from A_to_Z","66 min","",Replacer.ReplaceText,{"Content Advisory"}),
+#"Replace 74 min in content advisory by blank" = Table.ReplaceValue(#"Replace 66 min in content advisory by blank","74 min","",Replacer.ReplaceText,{"Content Advisory"}),
+#"Replace 84 min in content advisory by blank" = Table.ReplaceValue(#"Replace 74 min in content advisory by blank","84 min","",Replacer.ReplaceText,{"Content Advisory"}),
+#"Add column Movie_Duration" = Table.AddColumn(#"Replace 84 min in content advisory by blank", "Movie_Duration", each if [type] = "Movie" then [duration] else null),
+#"Move Movie_Duration next to duration" = Table.ReorderColumns(#"Add column Movie_Duration",{"show_id", "type", "title", "director", "cast", "country", "date_added", "release_year", "Content Advisory", "duration", "Movie_Duration", "Genres"}),
+#"Movie_Duration : Delete ""min""" = Table.ReplaceValue(#"Move Movie_Duration next to duration","min","",Replacer.ReplaceText,{"Movie_Duration"}),
+#"Movie_Duration: Change type in Number" = Table.TransformColumnTypes(#"Movie_Duration : Delete ""min""",{{"Movie_Duration", Int64.Type}}),
+#"Add column TV_Show_Duration" = Table.AddColumn(#"Movie_Duration: Change type in Number", "Tv_Show_Duration", each if [type] = "TV Show" then [duration] else ""),
+#"Move TV_Show_Duration next to Movie_Duration" = Table.ReorderColumns(#"Add column TV_Show_Duration",{"show_id", "type", "title", "director", "cast", "country", "date_added", "release_year", "Content Advisory", "duration", "Movie_Duration", "Tv_Show_Duration", "Genres"}),
+#"TV_Show_Duration : Replace season by """"" = Table.ReplaceValue(#"Move TV_Show_Duration next to Movie_Duration","Season","",Replacer.ReplaceText,{"Tv_Show_Duration"}),
+#"TV_Show_Duration : Replace Seasons by """"" = Table.ReplaceValue(#"TV_Show_Duration : Replace season by """"","Seasons","",Replacer.ReplaceText,{"Tv_Show_Duration"}),
+#"TV_Show_Duration : Replace s by """"" = Table.ReplaceValue(#"TV_Show_Duration : Replace Seasons by """"","s","",Replacer.ReplaceText,{"Tv_Show_Duration"}),
+#"Tv_Show_Duration : Change type from abc to number" = Table.TransformColumnTypes(#"TV_Show_Duration : Replace s by """"",{{"Tv_Show_Duration", Int64.Type}, {"Movie_Duration", type duration}}),
+#"Fractionner la colonne par délimiteur" = Table.SplitColumn(#"Tv_Show_Duration : Change type from abc to number", "country", Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv), {"country.1", "country.2", "country.3", "country.4", "country.5", "country.6"}),
+#"Seules les colonnes sélectionnées ont été supprimées du tableau croisé dynamique" = Table.Unpivot(#"Fractionner la colonne par délimiteur", {"country.1", "country.2", "country.3", "country.4", "country.5", "country.6"}, "Attribut", "Valeur"),
+#"Colonnes supprimées" = Table.RemoveColumns(#"Seules les colonnes sélectionnées ont été supprimées du tableau croisé dynamique",{"Attribut"}),
+#"Majuscule à chaque mot" = Table.TransformColumns(#"Colonnes supprimées",{{"Valeur", Text.Proper, type text}}),
+#"Colonnes renommées" = Table.RenameColumns(#"Majuscule à chaque mot",{{"Valeur", "country"}}),
+#"Country : Espaces supprimés" = Table.TransformColumns(#"Colonnes renommées",{{"country", Text.Trim, type text}}),
+#"Country : replace Soviet Union by Unknown" = Table.ReplaceValue(#"Country : Espaces supprimés","Soviet Union","Unknown",Replacer.ReplaceText,{"country"}),
+#"Country : replace West Germany by Germany" = Table.ReplaceValue(#"Country : replace Soviet Union by Unknown","West Germany","Germany",Replacer.ReplaceText,{"country"}),
+#"Country : replace East Germany by Germany" = Table.ReplaceValue(#"Country : replace West Germany by Germany","East Germany","Germany",Replacer.ReplaceText,{"country"}),
+#"Country : replace blank by Unknown" = Table.ReplaceValue(#"Country : replace East Germany by Germany","","Unknown",Replacer.ReplaceValue,{"country"}),
+#"Add Season_date_added column" = Table.AddColumn(#"Country : replace blank by Unknown", "Season", each if Date.Month([date_added]) = 12 or Date.Month([date_added]) <= 2 then "Winter"
+else if Date.Month([date_added]) >= 3 and Date.Month([date_added]) <= 5 then "Spring"
+else if Date.Month([date_added]) >= 6 and Date.Month([date_added]) <= 8 then "Summer"
+else "Fall"),
+#"Rename column" = Table.RenameColumns(#"Add Season_date_added column",{{"Season", "Season_date_added"}}),
+#"Replace Error by Blank" = Table.ReplaceErrorValues(#"Rename column", {{"Season_date_added", ""}}),
+#"Colonnes permutées" = Table.ReorderColumns(#"Replace Error by Blank",{"show_id", "type", "title", "director", "cast", "country", "date_added", "Season_date_added", "release_year", "Content Advisory", "duration", "Movie_Duration", "Tv_Show_Duration", "Genres"}),
+#"title : Each Words begins with a CAPITAL letter" = Table.TransformColumns(#"Colonnes permutées",{{"title", Text.Proper, type text}}),
+#"title : Delete spaces" = Table.TransformColumns(#"title : Each Words begins with a CAPITAL letter",{{"title", Text.Trim, type text}})
+in
+#"title : Delete spaces"
