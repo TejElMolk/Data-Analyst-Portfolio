@@ -254,6 +254,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 - Normalized all indices to place variables on a consistent scale for comparison.
 
 **Cost of Living Index**  
+
 ![Cost of Living Index](Projects/CitySpot/Images/Cost_of_living_index.png)
 
 **Insights**  
