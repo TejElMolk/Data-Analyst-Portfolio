@@ -451,7 +451,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 <details>
 <summary><strong>1. Adding New Data for More Accurate Recommendations</strong></summary>
 </details>
-**Integrating new variables will provide more comprehensive and relevant analyses:**
+Integrating new variables will provide more comprehensive and relevant analyses:
 
 - **Housing Costs:** Average rent or property prices in different cities to assess real estate affordability.
 - **Economic Opportunities:** Labor market conditions, ease of investment, and local taxation.
@@ -464,7 +464,7 @@ These additional data points will allow users and businesses to compare cities m
 <details>
 <summary><strong>2. Automated Data Updates via API</strong></summary>
 </details>
-**Using APIs will allow:**
+Using APIs will allow:
 
 - Access to **always up-to-date data** without manual updates.
 - **Real-time monitoring** of trends and changes.
@@ -475,7 +475,7 @@ These additional data points will allow users and businesses to compare cities m
 <details>
 <summary><strong>3. Improving User Experience</strong></summary>
 </details>
-**To make the platform more intuitive and accessible:**
+To make the platform more intuitive and accessible:
 
 - **Smooth and fast navigation:** A responsive interface with customization options to tailor results to specific user needs.
 - **Dynamic results display:** Interactive charts and maps for clear and immediate data visualization.
