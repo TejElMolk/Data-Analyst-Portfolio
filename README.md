@@ -78,7 +78,7 @@ Explore the Netflix catalogue, understand content distribution, identify trends,
 - Power BI: interactive dashboards and visual exploration  
 
 **Result:**  
-Netflix focuses on movies (~70%) but maintains TV shows for binge-watching. Drama, Comedy, Documentary are most prevalent. Production concentrated in US, India, UK, with global presence in 120 countries. Seasonal and regional trends inform localized strategies.  
+Analysis revealed that Netflix primarily focuses on movies (~70%) while maintaining TV shows for binge-watching. Drama, Comedy, and Documentary are the most common genres. Content production is concentrated in the US, India, and UK, but Netflix maintains a global presence in 120 countries. Seasonal and regional trends highlight opportunities for localized content strategies and strategic content expansion.
 
 [See full project](Projects/Netflix/)
 
