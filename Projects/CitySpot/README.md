@@ -317,9 +317,9 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 </table>
 
  **Insights** 
-    - **Slightly skewed normal distribution:** Bell-shaped with right tail  
-    - **Mean (52.06) > Median (49.3):** Positive asymmetry confirmed  
-    - **Mode at 25.4:** Concentration of cities with very affordable food prices  
+- **Slightly skewed normal distribution:** Bell-shaped with right tail  
+- **Mean (52.06) > Median (49.3):** Positive asymmetry confirmed  
+- **Mode at 25.4:** Concentration of cities with very affordable food prices  
     - **Moderate standard deviation (20.39):** Reasonable variability between cities  
     - **Food budget segmentation:** Three natural groups emerge (affordable <40, medium 40-60, expensive >60)  
     - **Outliers to monitor:** Few cities with extremely high food prices (>100)  
