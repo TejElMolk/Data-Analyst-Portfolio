@@ -431,7 +431,7 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 </details>
 
 <details>
-<summary><strong>V. Recommendations</strong></summary>
+<summary><strong>## V. Recommendations</strong></summary>
 
 ### 1. Adding New Data for More Accurate Recommendations
 Integrating new variables will provide more comprehensive and relevant analyses:
@@ -455,7 +455,7 @@ To make the platform more intuitive and accessible:
 </details>
 
 <details>
-<summary><strong>VI. Limitations</strong></summary>
+<summary><strong>## VI. Limitations</strong></summary>
 
 While CitySpot provides valuable insights, several limitations must be acknowledged:
 
@@ -472,7 +472,7 @@ While CitySpot provides valuable insights, several limitations must be acknowled
 </details>
 
 <details>
-<summary><strong>VII. Conclusion</strong></summary>
+<summary><strong>## VII. Conclusion</strong></summary>
 
 CitySpot demonstrates that multi-source data can effectively guide individuals in choosing cities that match their lifestyle and priorities. The analysis reveals that:
 
@@ -485,7 +485,7 @@ Overall, CitySpot illustrates how rigorous data analysis and interactive visuali
 </details>
 
 <details>
-<summary><strong>VIII. Dashboard</strong></summary>
+<summary><strong>## VIII. Dashboard</strong></summary> 
 
 <img src="Images/Cityspot_dashboard.png" alt="Images/Cityspot_dashboard.png" width="1000">
 
