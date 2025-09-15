@@ -249,10 +249,6 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 
 ### **1. Univariate Analysis**
     
-<details>
-<summary><strong>Analysis</strong></summary>
-
-
 **Purpose:** Understand the distribution and dispersion of each index.
     
 - Visualized distributions of key indices to detect outliers and variability.
@@ -337,13 +333,10 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 </details>
 
 ### **2. Bivariate Analysis**
-<details>
-<summary><strong>Purpose</strong></summary>
     
 **Purpose:**  Explore relationships between two variables.
 
 - Examined correlations between key indices:
-</details>
 
 <details>
 <summary><strong>Cost of Living Index vs. Quality of Life Index</strong></summary>
