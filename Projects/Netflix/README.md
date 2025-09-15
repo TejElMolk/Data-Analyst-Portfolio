@@ -63,6 +63,9 @@ After exploring the dataset and identifying missing or inconsistent values, we a
 
 To prepare the dataset for analysis, the following steps were performed:
 
+<details>
+<summary>Data Cleaning Steps</summary>
+
 1. **Column adjustments and renaming**
     - Removed irrelevant columns like `description`.
     - Renamed `listed_in` to `Genres` and `rating` to `Content Advisory` for clarity.
@@ -89,3 +92,4 @@ To prepare the dataset for analysis, the following steps were performed:
 
 </details>
 
+</details>
