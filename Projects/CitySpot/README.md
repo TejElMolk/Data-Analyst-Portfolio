@@ -250,8 +250,8 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 
 **Purpose:** Understand the distribution and dispersion of each index.
     
-    - Visualized distributions of key indices to detect outliers and variability.
-    - Normalized all indices to place variables on a consistent scale for comparison.
+- Visualized distributions of key indices to detect outliers and variability.
+- Normalized all indices to place variables on a consistent scale for comparison.
     
 **A-Cost of Living Index**  
     
@@ -259,11 +259,11 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
    <table>
   <tr>
     <td>
-      <img src="Images/Cost_of_living_index.png" alt="Cost of Living Index" width="300">
+      <img src="Images/Cost_of_living_index.png" alt="Cost of Living Index" width="400">
       <p align="center"><i>Cost of Living Index</i></p>
     </td>
     <td>
-      <img src="Images/Cost_of_living box plot.png" alt="Cost of Living Box Plot" width="300">
+      <img src="Images/Cost_of_living box plot.png" alt="Cost of Living Box Plot" width="400">
       <p align="center"><i>Cost of Living Box Plot</i></p>
     </td>
   </tr>
