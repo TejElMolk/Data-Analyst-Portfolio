@@ -283,11 +283,11 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
    <table>
   <tr>
     <td>
-      <img src="Freedom_score_index.png" alt="Freedom_score Index" width="500">
+      <img src="Images/Freedom_score_index.png" alt="Freedom_score Index" width="500">
       <p align="center"><i>Freedom_score Index</i></p>
     </td>
     <td>
-      <img src="Freedom_score_box_plot.png" alt="Freedom_score Box Plot" width="500">
+      <img src="Images/Freedom_score_box_plot.png" alt="Freedom_score Box Plot" width="500">
       <p align="center"><i>Freedom_score Box Plot</i></p>
     </td>
   </tr>
@@ -306,11 +306,11 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
  <table>
   <tr>
     <td>
-      <img src="Groceries_index.png" alt="Groceries Index" width="500">
+      <img src="Images/Groceries_index.png" alt="Groceries Index" width="500">
       <p align="center"><i>Groceries Index</i></p>
     </td>
     <td>
-      <img src="Groceries_box_plot.png" alt="Groceries Box Plot" width="500">
+      <img src="Images/Groceries_box_plot.png" alt="Groceries Box Plot" width="500">
       <p align="center"><i>Groceries Box Plot</i></p>
     </td>
   </tr>
