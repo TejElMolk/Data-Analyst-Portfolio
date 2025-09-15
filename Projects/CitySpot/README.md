@@ -1,12 +1,16 @@
-
-</details>
 <details>
   <summary style="font-size:1.5em; font-weight:bold;">II. Data Exploration</summary>
   <div style="text-align:center; margin-top:10px;">
     <img src="Images/CitySpot.png" alt="CitySpot.png" width="600">
   </div>
 </details>
-</details>
+
+## I. Introduction
+
+### **Who is CitySpot?**
+
+CitySpot is a data analysis project developed as part of my portfolio as a Junior Data Analyst. The goal of CitySpot is to help individuals – whether they are digit
+
 
 ## I. Introduction
 
