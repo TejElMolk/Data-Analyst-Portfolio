@@ -248,49 +248,59 @@ The final dataset was fully cleaned and structured, ready for analysis and visua
 
 ### **1. Univariate Analysis**
 
-**Purpose:** Understand the distribution and dispersion of each index.
+    **Purpose:** Understand the distribution and dispersion of each index.
+    
+    - Visualized distributions of key indices to detect outliers and variability.
+    - Normalized all indices to place variables on a consistent scale for comparison.
+    
+    **A-Cost of Living Index**  
+    
+    
+   <table>
+  <tr>
+    <td>
+      <img src="Projects/CitySpot/Images/Cost_of_living_index.png" alt="Cost of Living Index" width="300">
+      <p align="center"><i>Cost of Living Index</i></p>
+    </td>
+    <td>
+      <img src="Projects/CitySpot/Images/Cost_of_living_box_plot.png" alt="Cost of Living Box Plot" width="300">
+      <p align="center"><i>Cost of Living Box Plot</i></p>
+    </td>
+  </tr>
+</table>
 
-- Visualized distributions of key indices to detect outliers and variability.
-- Normalized all indices to place variables on a consistent scale for comparison.
-
-**Cost of Living Index**  
-
-
-<img src="Images/Cost_of_living_index.png" alt="Cost of Living Index" width="600">
-
-<p align="center"><i></i></p>
-
-
-**Insights**  
-- **Two-peak distribution:** Two distinct peaks around 35 and 65, suggesting two city groups  
-- **Mean (54.02) > Median (53.7):** Slightly right-skewed distribution  
-- **High standard deviation (19.71):** Large variability in cost of living across cities  
-- **Outliers present:** Few cities with extremely high living costs (>100)  
-- **Natural segmentation:** Clear distinction between "affordable" cities (peak at 35) vs "expensive" cities (peak at 65)  
-
-
-
-**Freedom Score Index**  
-
-**Insights** 
-- **Heavily left-skewed distribution:** Massive concentration of cities in high scores (80-100)  
-- **Mean (77.28) < Median (89.0):** Confirms negative asymmetry  
-- **Mode at 89:** Most frequent freedom score  
-- **Low variability in high scores:** Most analyzed cities are from democratic countries  
-- **Positive selection bias:** Sample seems to favor cities from democratic/free countries  
-- **Limited differentiating criterion:** Political freedom won't be a major discriminating factor for most comparisons  
-
-**Food Price Index**  
+    
+    
+    **Insights**  
+    - **Two-peak distribution:** Two distinct peaks around 35 and 65, suggesting two city groups  
+    - **Mean (54.02) > Median (53.7):** Slightly right-skewed distribution  
+    - **High standard deviation (19.71):** Large variability in cost of living across cities  
+    - **Outliers present:** Few cities with extremely high living costs (>100)  
+    - **Natural segmentation:** Clear distinction between "affordable" cities (peak at 35) vs "expensive" cities (peak at 65)  
 
 
 
-**Insights** 
-- **Slightly skewed normal distribution:** Bell-shaped with right tail  
-- **Mean (52.06) > Median (49.3):** Positive asymmetry confirmed  
-- **Mode at 25.4:** Concentration of cities with very affordable food prices  
-- **Moderate standard deviation (20.39):** Reasonable variability between cities  
-- **Food budget segmentation:** Three natural groups emerge (affordable <40, medium 40-60, expensive >60)  
-- **Outliers to monitor:** Few cities with extremely high food prices (>100)  
+    **B-Freedom Score Index**  
+    
+    **Insights** 
+    - **Heavily left-skewed distribution:** Massive concentration of cities in high scores (80-100)  
+    - **Mean (77.28) < Median (89.0):** Confirms negative asymmetry  
+    - **Mode at 89:** Most frequent freedom score  
+    - **Low variability in high scores:** Most analyzed cities are from democratic countries  
+    - **Positive selection bias:** Sample seems to favor cities from democratic/free countries  
+    - **Limited differentiating criterion:** Political freedom won't be a major discriminating factor for most comparisons  
 
-
+    **C-Food Price Index**  
+    
+    
+    
+    **Insights** 
+    - **Slightly skewed normal distribution:** Bell-shaped with right tail  
+    - **Mean (52.06) > Median (49.3):** Positive asymmetry confirmed  
+    - **Mode at 25.4:** Concentration of cities with very affordable food prices  
+    - **Moderate standard deviation (20.39):** Reasonable variability between cities  
+    - **Food budget segmentation:** Three natural groups emerge (affordable <40, medium 40-60, expensive >60)  
+    - **Outliers to monitor:** Few cities with extremely high food prices (>100)  
+    
+    
 
