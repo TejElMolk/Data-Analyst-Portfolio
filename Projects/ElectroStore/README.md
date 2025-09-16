@@ -180,7 +180,7 @@ Electronics, appliances, computers, and products labeled as “Unknown” accoun
 <table>
   <tr>
     <td>
-      <img src="Images/Product_Category_Analysis (5).png" alt="Product_Category_Analysis" width="300">
+      <img src="Images/Product_Category_Analysis (5).png" alt="Product_Category_Analysis" width="500">
       <p align="center"><i>Product_Category_Analysis</i></p>
     </td>
     <td>
@@ -204,7 +204,8 @@ Electronics, appliances, computers, and products labeled as “Unknown” accoun
 <details>
 <summary><b>Question: What is the average value of a customer’s order?</b></summary><br>
 
-      <img src="Images/Product_Category_Analysis (7).png" alt="Product_Category_Analysis" width="400">
+  <img src="Images/Product_Category_Analysis (7).png" alt="Product_Category_Analysis" width="500">
+
 
 **Key insight:**  
 - This chart complements the previous analysis of order counts and units sold by adding the dimension of value per order.  
@@ -220,8 +221,8 @@ Electronics, appliances, computers, and products labeled as “Unknown” accoun
 <details>
 <summary><b>Question: How have sales for products and categories changed over time?</b></summary><br>
 
-      <img src="Images/Product_Category_Analysis (8).png" alt="Product_Category_Analysis" width="400">
-      <img src="Images/Product_Category_Analysis (9).png" alt="Product_Category_Analysis" width="400">
+<img src="Images/Product_Category_Analysis (8).png" alt="Product_Category_Analysis" width="500">
+<img src="Images/Product_Category_Analysis (9).png" alt="Product_Category_Analysis" width="500">
 
 
 *Monthly sales are aggregated at the category level to reduce granularity and highlight clear trends, making the analysis easier to interpret.*  
