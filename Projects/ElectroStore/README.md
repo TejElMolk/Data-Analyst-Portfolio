@@ -286,11 +286,11 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 <table>
   <tr>
     <td>
-      <img src="Images/Frequency of Purchase Analysis (2).png" alt="Frequency of Purchase Analysis" width="300">
+      <img src="Images/Frequency of Purchase Analysis (2).png" alt="Frequency of Purchase Analysis" width="500">
       <p align="center"><i>Product_Category_Analysis</i></p>
     </td>
     <td>
-      <img src="Images/Frequency of Purchase Analysis (3).png" alt="Frequency of Purchase Analysis" width="500">
+      <img src="Images/Frequency of Purchase Analysis (3).png" alt="Frequency of Purchase Analysis" width="800">
       <p align="center"><i>Product_Category_Analysis</i></p>
     </td>
   </tr>
