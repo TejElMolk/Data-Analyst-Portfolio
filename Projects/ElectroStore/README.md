@@ -133,6 +133,95 @@ The project aims to analyze January–November 2020 data from a large online ele
 
 </details>
 
-        
-        
+
+## IV. Exploratory Data Analysis (EDA)
+
+- **1. Product & Category analysis**
+
+<details>
+<summary><b>Question: Which products or categories generated the most revenue?</b></summary><br>
+
+![Capture d’écran 2025-09-02 à 19.12.34.png](attachment:f7bce54f-0667-4a11-abc2-5b7f08da2891:ac3085be-dbaf-4086-b196-a8399d7c0838.png)
+
+![Capture d’écran 2025-09-09 à 11.50.34.png](attachment:de039555-6951-4739-8a30-b6c7909a02f3:Capture_decran_2025-09-09_a_11.50.34.png)
+
+**Key insight:**  
+Electronics, appliances, computers, and products labeled as “Unknown” account for 97.32% of total revenue, while the remaining categories contribute only 2.68%, indicating minimal impact. The store’s revenue is heavily reliant on these four categories.
+
+![Capture d’écran 2025-09-02 à 20.08.23.png](attachment:0bfbd305-924f-4d5f-b459-6c25e4ade753:90fdd10e-bbc5-49c2-909a-03dff531b65c.png)
+
+![Capture d’écran 2025-09-09 à 11.52.27.png](attachment:1d0972c5-2300-434a-885d-9faacfd9337b:Capture_decran_2025-09-09_a_11.52.27.png)
+
+</details>  
+
+---
+
+<details>
+<summary><b>Question: Which categories were purchased most frequently?</b></summary><br>
+
+![Capture d’écran 2025-09-02 à 20.44.21.png](attachment:a055930b-75ee-4c48-abb6-27d5f0826831:ccabfd99-a2a2-4afc-8a0f-fd77e39a0aaf.png)
+
+![Capture d’écran 2025-09-09 à 11.54.46.png](attachment:4341e602-b76d-41aa-81f4-e71686c838cd:Capture_decran_2025-09-09_a_11.54.46.png)
+
+**Key insight:**  
+- Appliances 482290 orders and electronics 464913 orders are the most popular categories and core revenue drivers  
+- Unknown 607138 units sold has the highest quantity but may include misclassified products  
+- Computers 175293 orders 221383 units and furniture 92845 orders 120468 units show moderate engagement with fewer but larger orders  
+- Average units per order: computers ~1.26, furniture ~1.3, indicating customers buy multiple items per order  
+- Small categories sport 1806 orders 1891 units, medicine 3349 orders 3363 units, and country_yard 312 orders 315 units have very low customer activity  
+
+</details>  
+
+---
+
+<details>
+<summary><b>Question: What is the average value of a customer’s order?</b></summary><br>
+
+![Capture d’écran 2025-09-02 à 21.00.21.png](attachment:8501519c-3275-4268-a381-506d580893c4:Capture_decran_2025-09-02_a_21.00.21.png)
+
+**Key insight:**  
+- This chart complements the previous analysis of order counts and units sold by adding the dimension of value per order.  
+- Electronics 270.45$ and apparel 251.98$ have the highest average baskets, showing they are not only popular but also very profitable per order.  
+- Computers 188.32$ and furniture 33.33$ indicate that some less frequent categories have higher or lower average baskets, revealing specific buying behaviors (rare but sometimes costly purchases for computers).  
+- Appliances 170.22$ remain popular with moderate baskets, consistent with frequent purchases but lower amounts per order.  
+- Small categories like stationery 5.95$ or accessories 19.43$ confirm low average baskets, aligning with low customer activity.  
+
+</details>  
+
+---
+
+<details>
+<summary><b>Question: How have sales for products and categories changed over time?</b></summary><br>
+
+![Capture d’écran 2025-09-03 à 14.19.28.png](attachment:cddf967b-e391-4f5d-bd40-b630588365cb:Capture_decran_2025-09-03_a_14.19.28.png)
+
+![Capture d’écran 2025-09-03 à 16.59.50.png](attachment:b9f72cce-eab7-4830-84ce-5c4570b0a468:Capture_decran_2025-09-03_a_16.59.50.png)
+
+*Monthly sales are aggregated at the category level to reduce granularity and highlight clear trends, making the analysis easier to interpret.*  
+
+**Key insight:**  
+- **Feb–Mar (Early Year):** Sales are mixed; some categories grow while others decline.  
+- **April (Spring):** Almost all categories experience a **strong decline**—the lowest point of the year.  
+- **May–August (Summer):** Most categories show **moderate to strong growth**, making these the strongest months overall.  
+- **July, October–November:** Several categories experience **moderate or strong declines**, suggesting a seasonal slowdown.  
+- **September–November:** Overall, sales show a mixed decline, with some categories dropping more than others.  
+
+These patterns suggest that **seasonality plays a role in sales**—customers may buy differently at different times of the year. Overall, **Sport (+73%)** and **Kids (+67%)** are the strongest categories, showing high growth despite volatility, while **Apparel (-1%)** consistently underperforms.  
+
+</details>  
+
+---
+
+### **Product & Category – Recommendations**
+
+- Focus on **top revenue categories**: Electronics, appliances, computers, and Unknown products drive 97% of revenue.  
+- **Promote high-value products**: Smartphones (~37% of revenue), refrigerators, notebooks, and TVs.  
+- **Leverage mid-range categories**: Computers and furniture have higher units per order (~1.26–1.3); consider cross-selling to increase basket size.  
+- **Address low-activity categories**: Sport, medicine, stationery, accessories, country_yard have low orders and small baskets.  
+- **Encourage repeat high-value purchases**: Electronics and apparel have the highest average baskets (~$270 and ~$252).  
+- **Improve data quality**: Investigate Unknown products for correct classification to enhance insights.  
+- **Investigate declining or stagnant categories:** Focus on months where growth % is low or negative (e.g., Apparel, Medicine).  
+- **Act on growth trends:** Use the heatmap to identify months and categories with strong growth %, and run promotions during these periods.  
+- For categories showing strong growth %, ensure sufficient stock to meet potential increased demand.  
+
        
