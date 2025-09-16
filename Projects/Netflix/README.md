@@ -6,7 +6,6 @@
 
 # NETFLIX PORTFOLIO PROJECT
 
-<img src="Images/Distribution of Movies vs TV Shows (1).png" alt="Distribution of Movies vs TV Shows (1).png" width="600">
 
 ## I. Introduction / Context
 
@@ -129,7 +128,7 @@ The cleaned Netflix dataset allowed us to explore key questions about the platfo
 
 **Question:** How many movies and TV shows are available on Netflix?
 
-![Capture d’écran 2025-09-12 à 15.35.43.png](attachment:86e18b01-159c-4355-afb9-aa0596f78343:Capture_decran_2025-09-12_a_15.35.43.png)
+<img src="Images/Distribution of Movies vs TV Shows (1).png" alt="Distribution of Movies vs TV Shows (1).png" width="600">
 
 **Observation:**
 
@@ -150,7 +149,7 @@ The cleaned Netflix dataset allowed us to explore key questions about the platfo
 
 **Question:** Which genres are the most present on the platform?
 
-![Capture d’écran 2025-09-12 à 16.16.15.png](attachment:cde0df35-67c3-4437-a523-57318b07caca:Capture_decran_2025-09-12_a_16.16.15.png)
+<img src="Images/Most Common Genres (2).png" alt="Most Common Genres (2).png.png" width="600">
 
 **Observation:**
 
@@ -190,7 +189,7 @@ The cleaned Netflix dataset allowed us to explore key questions about the platfo
 
 **Question:** Which countries produce the most Netflix content?
 
-![Capture d’écran 2025-09-12 à 16.08.57.png](attachment:4a5df733-2db5-41ab-bff5-979d74d1c46d:Capture_decran_2025-09-12_a_16.08.57.png)
+<img src="Images/Top Producing Countries (3).png" alt="Top Producing Countries (3).png" width="600">
 
 **Observation:**
 
@@ -215,7 +214,7 @@ The cleaned Netflix dataset allowed us to explore key questions about the platfo
 
 **Question:** What is the dominant genre in each country?
 
-![Capture d’écran 2025-09-12 à 16.07.26.png](attachment:b709a05a-c8a5-4a17-b183-43de40ecb44e:Capture_decran_2025-09-12_a_16.07.26.png)
+<img src="Images/Dominant Genre per Country (4).png" alt="Dominant Genre per Country (4).png" width="600">
 
 **Observation:**
 
@@ -234,7 +233,7 @@ The cleaned Netflix dataset allowed us to explore key questions about the platfo
 
 **Question:** Are there seasonal trends in the release of Netflix content?
 
-![Capture d’écran 2025-09-12 à 16.22.15.png](attachment:5aae8e64-60ca-4d4f-bc14-eefb4dcd8989:Capture_decran_2025-09-12_a_16.22.15.png)
+<img src="Images/Seasonal Trends in Content Release (5).png" alt="Seasonal Trends in Content Release (5).png" width="600">
 
 **Observation:**
 
@@ -254,7 +253,7 @@ The cleaned Netflix dataset allowed us to explore key questions about the platfo
 
 **Question:** What can we learn from content advisory ratings and catalogue growth?
 
-![Capture d’écran 2025-09-12 à 16.24.01.png](attachment:4b1fb288-db7a-4116-bb68-78ad48b08131:Capture_decran_2025-09-12_a_16.24.01.png)
+<img src="Images/Content Advisory and Growth(6).png" alt="Content Advisory and Growth(6).png" width="600">
 
 **Observation:**
 
@@ -315,5 +314,10 @@ Overall, this analysis shows that Netflix balances **mass appeal with targeted c
 
 
 ## VIII. Dashboard
+
+[Download Power BI Dashboard (.pbix)](Dashboard/Netflix_Project.pbix) 
+
+<img src="Images/Netflix Dashboard 1.png" alt="Netflix Dashboard 1.png" width="1000">
+<img src="Images/Netflix Dashboard 2.png" alt="Netflix Dashboard 2.png" width="1000">
 
 
