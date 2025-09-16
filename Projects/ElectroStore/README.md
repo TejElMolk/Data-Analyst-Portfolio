@@ -10,7 +10,9 @@ This dataset contains purchase events from **January 2020 to November 2020** fro
 
 ### **Project goal**
 
-The project aims to analyze January–November 2020 data from a large online electronics store to identify key trends and patterns in customer purchase behavior, top-selling products, categories, brands, and purchase frequency. Insights from this analysis can be used to provide actionable recommendations for improving sales performance, customer retention, and overall online store optimization. ### **Content of dataset**
+The project aims to analyze January–November 2020 data from a large online electronics store to identify key trends and patterns in customer purchase behavior, top-selling products, categories, brands, and purchase frequency. Insights from this analysis can be used to provide actionable recommendations for improving sales performance, customer retention, and overall online store optimization. 
+
+### **Content of dataset**
 
 | **Column Name** | **Description** | **Business Context** |
 | --- | --- | --- |
