@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Images/ElectroStore Logo.png" alt="ElectroStore Logo.png" width="200">
+  <img src="Images/ElectroStore Logo.png" alt="ElectroStore Logo.png" width="500">
 </p>
 
 
