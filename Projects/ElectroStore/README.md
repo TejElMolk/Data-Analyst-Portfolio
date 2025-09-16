@@ -360,7 +360,7 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 <details>
 <summary><b>Question: Which periods show peaks or lows in activity, and which events influence sales?</b></summary><br>
 
-<img src="Images/Time Analysis (3).png" alt="Time Analysis" width="800">
+<img src="Images/Time Analysis (3).png" alt="Time Analysis" width="500">
 
 **Key insight:**  
 - **Jan–Mar (Q1 – Early Year):** Orders and revenue start strong, with March revenue spiking despite stable orders. Normal early-year consumer behavior; customers purchasing electronics after holidays.  
@@ -377,7 +377,7 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 <details>
 <summary><b>Question: On which days and at what hours do customers place the most orders?</b></summary><br>
 
-<img src="Images/Time Analysis (4).png" alt="Time Analysis" width="800">
+<img src="Images/Time Analysis (4).png" alt="Time Analysis" width="1000">
 
 **Key insight:**  
 
