@@ -136,7 +136,7 @@ The project aims to analyze January–November 2020 data from a large online ele
 
 ## IV. Exploratory Data Analysis (EDA)
 
-- **1. Product & Category analysis**
+### **1. Product & Category analysis**
 
 <details>
 <summary><b>Question: Which products or categories generated the most revenue?</b></summary><br>
