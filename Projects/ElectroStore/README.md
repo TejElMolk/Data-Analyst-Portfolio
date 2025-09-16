@@ -47,7 +47,7 @@ The project aims to analyze January–November 2020 data from a large online ele
 ## III. Data Cleaning
 
 <details>
-<summary>STEP 1 - Date and Time Cleaning</summary>
+<summary>STEP 1 - Date and Time Cleaning</summary><br>
 
 - Removed the `UTC` suffix from the `event_time` column.  
 - Converted `event_time` from text to **datetime type**.  
@@ -60,7 +60,7 @@ The project aims to analyze January–November 2020 data from a large online ele
 </details>
 
 <details>
-<summary>STEP 2 - Price Cleaning</summary>
+<summary>STEP 2 - Price Cleaning</summary><br>
 
 - Standardized price formatting by replacing dots with commas where necessary.  
 - Converted `price` to **currency type** for accurate analysis.  
@@ -68,7 +68,7 @@ The project aims to analyze January–November 2020 data from a large online ele
 </details>
 
 <details>
-<summary>STEP 3 - Category and Product Transformation</summary>
+<summary>STEP 3 - Category and Product Transformation</summary><br>
 
 - Split `category_code` into three columns:  
   - `category_name` (main category)  
@@ -79,7 +79,7 @@ The project aims to analyze January–November 2020 data from a large online ele
 </details>
 
 <details>
-<summary>STEP 4 - Handling Missing and Non-Standard Values</summary>
+<summary>STEP 4 - Handling Missing and Non-Standard Values</summary><br>
 
 - Added `Flag_data` to classify rows:  
   - **Critical Missing Data** → missing essential columns (`event_time`, `order_id`, `product_model_id`, `category_id`, `price`) → **excluded**  
@@ -91,7 +91,7 @@ The project aims to analyze January–November 2020 data from a large online ele
 </details>
 
 <details>
-<summary>STEP 5 - Filtering and Joining</summary>
+<summary>STEP 5 - Filtering and Joining</summary><br>
 
 - Removed rows with **critical missing data** to maintain accuracy.  
 - Ensured `user_id` type consistency across tables for reliable joins.  
@@ -105,7 +105,7 @@ The project aims to analyze January–November 2020 data from a large online ele
 </details>
 
 <details>
-<summary>STEP 6 - Resulting Dataset</summary>
+<summary>STEP 6 - Resulting Dataset</summary><br>
 
 - Fully structured, consistent, and ready for analysis.  
 - Supports **Pivot Tables**, **Data Models**, and **Excel dashboards** to analyze:  
