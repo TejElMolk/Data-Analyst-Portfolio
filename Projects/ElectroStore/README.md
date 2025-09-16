@@ -450,11 +450,13 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 <details>
 <summary><b>Question: On which days and at what hours do customers place the most orders, and what patterns emerge from their daily shopping behavior?</b></summary><br>
 
-![Basket Analysis](Images/Basket_Analysis_3.png)
+<img src="https://raw.githubusercontent.com/username/repo/main/Images/Basket_Analysis_3.png" alt="Basket Analysis" width="800">
 
 **Key insight:**
+</details>
 
 
+--
 <details>
 <summary><b>Question: On which days and at what hours do customers place the most orders, and what patterns emerge from their daily shopping behavior?</b></summary><br>
 
