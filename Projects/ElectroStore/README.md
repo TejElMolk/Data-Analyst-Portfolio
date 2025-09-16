@@ -269,7 +269,7 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 <details>
 <summary><b>Question: How frequently do loyal and recurrent customers make purchases?</b></summary><br>
 
-<img src="Images/Frequency of Purchase Analysis(1).png" alt="Frequency of Purchase Analysis" width="500">
+<img src="Images/Frequency of Purchase Analysis(1).png" alt="Frequency of Purchase Analysis" width="800">
 
 **Key insight:**  
 - **Loyal customers purchase 17% faster** than recurrent customers (25 vs 30 days)  
@@ -286,7 +286,7 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 <table>
   <tr>
     <td>
-      <img src="Images/Frequency of Purchase Analysis (2).png" alt="Frequency of Purchase Analysis" width="500">
+      <img src="Images/Frequency of Purchase Analysis (2).png" alt="Frequency of Purchase Analysis" width="800">
       <p align="center"><i>Product_Category_Analysis</i></p>
     </td>
     <td>
@@ -308,7 +308,7 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 <details>
 <summary><b>Question: How does the store perform on customer retention compared to the industry?</b></summary><br>
 
-<img src="Images/Frequency of Purchase Analysis (4).png" alt="Frequency of Purchase Analysis" width="500">
+<img src="Images/Frequency of Purchase Analysis (4).png" alt="Frequency of Purchase Analysis" width="800">
 
 **Key insight:**  
 - In general The average e-commerce customer retention rate generally falls between 28% and 30%. The electronic store achieves a 31.8% customer retention rate, meaning nearly 1 in 3 customers return for additional purchases.  
