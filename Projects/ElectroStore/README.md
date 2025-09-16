@@ -204,7 +204,7 @@ Electronics, appliances, computers, and products labeled as “Unknown” accoun
 <details>
 <summary><b>Question: What is the average value of a customer’s order?</b></summary><br>
 
-  <img src="Images/Product_Category_Analysis (7).png" alt="Product_Category_Analysis" width="500">
+  <img src="Images/Product_Category_Analysis (7).png" alt="Product_Category_Analysis" width="300">
 
 
 **Key insight:**  
@@ -222,6 +222,7 @@ Electronics, appliances, computers, and products labeled as “Unknown” accoun
 <summary><b>Question: How have sales for products and categories changed over time?</b></summary><br>
 
 <img src="Images/Product_Category_Analysis (8).png" alt="Product_Category_Analysis" width="500">
+<br>
 <img src="Images/Product_Category_Analysis (9).png" alt="Product_Category_Analysis" width="500">
 
 
