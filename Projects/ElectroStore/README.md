@@ -287,11 +287,11 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
   <tr>
     <td>
       <img src="Images/Frequency of Purchase Analysis (2).png" alt="Frequency of Purchase Analysis" width="800">
-      <p align="center"><i>Product_Category_Analysis</i></p>
+      <p align="center"><i>Frequency of Purchase Analysis</i></p>
     </td>
     <td>
       <img src="Images/Frequency of Purchase Analysis (3).png" alt="Frequency of Purchase Analysis" width="800">
-      <p align="center"><i>Product_Category_Analysis</i></p>
+      <p align="center"><i>Frequency of Purchase Analysis</i></p>
     </td>
   </tr>
 </table>
@@ -328,3 +328,87 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
     - Send promotions, reminders, or personalized offers around the time a customer is likely to make their next purchase to increase conversion.  
     - Stock popular products based on predicted buying cycles to avoid shortages and ensuring availability when customers are most likely to buy.
 
+
+### **3. Time Analysis**
+
+<details>
+<summary><b>Question: How do revenue and order count evolve month by month?</b></summary><br>
+
+  <table>
+  <tr>
+    <td>
+      <img src="Images/Time Analysis(1).png" alt="Time Analysis" width="800">
+      <p align="center"><i>Time Analysis</i></p>
+    </td>
+    <td>
+      <img src="Images/Time Analysis (2).png" alt="Frequency of Time Analysis" width="800">
+      <p align="center"><i>Time Analysis</i></p>
+    </td>
+  </tr>
+</table>
+
+**Key insight:**  
+- **Volume-Driven Business:** When we see order volume drops of -35% to -78% while revenue drops by nearly identical percentages (-39% to -79%), it proves that **customer volume** (how many people buy) controls **revenue performance,** not **customer value** (how much each person spends).  
+- **Order Volume & Revenue Correlation:** The two metrics move together almost perfectly - when orders crash, revenue crashes by almost the same percentage. This tight correlation shows the business depends on getting **more customers** rather than getting each customer to **spend more**.  
+- **Atypical V-Shaped Recovery:** Two sharp V-shaped recoveries occurred in 2020 - first from March→April crash followed by recovery to June peak, then June→July drop followed by another recovery to August peak - demonstrating unusual market volatility with extreme swings replacing normal seasonal patterns throughout the year *(likely influenced by the COVID-19 period).*  
+- **Performant Business Model:** Despite facing significant market fluctuations, the business showed a strong ability to recover quickly after downturns — highlighting both its sensitivity to external shocks and its resilience within the electronics retail sector.
+
+</details>
+
+---
+
+<details>
+<summary><b>Question: Which periods show peaks or lows in activity, and which events influence sales?</b></summary><br>
+
+<img src="Images/Time Analysis (3).png" alt="Time Analysis" width="800">
+
+**Key insight:**  
+- **Jan–Mar (Q1 – Early Year):** Orders and revenue start strong, with March revenue spiking despite stable orders. Normal early-year consumer behavior; customers purchasing electronics after holidays.  
+- **Apr (Q2 – Spring Dip):** Orders plummet and revenue drops to the lowest of the year. COVID-19 lockdowns caused a sharp decline; physical stores were closed and consumer uncertainty was high.  
+- **May–Jun (Q2 – Recovery):** Orders and revenue recover quickly (May ~186k orders / €28M, Jun ~326k orders / €45M). **Pent-up demand** as restrictions ease; consumers return to online shopping, often buying high-value electronics for home or work use.  
+- **Jul (Q3 – Summer Slowdown):** Orders dip (~151k), reflecting a seasonal summer slowdown compounded by pandemic uncertainty.  
+- **Aug–Sep (Q3 – Summer Peak):** Strong growth (Aug ~268k / €52.8M, Sep ~311k / €49.3M). Back-to-school purchases and higher-value electronics drive revenue spikes despite fluctuating order counts.  
+- **Oct–Nov (Q4 – Fall Weakness):** Orders decline sharply (Oct ~104k, Nov ~67k). Pandemic waves, supply chain issues, and cautious spending slow pre-holiday purchases.
+
+</details>
+
+---
+
+<details>
+<summary><b>Question: On which days and at what hours do customers place the most orders?</b></summary><br>
+
+<img src="Images/Time Analysis (4).png" alt="Time Analysis" width="800">
+
+**Key insight:**  
+
+**Peak Days:**  
+- Saturday generates the highest order volume across all days.  
+- Weekend shopping dominates with Friday, Saturday, and Sunday leading, with Tuesday also showing high activity.  
+- Thursday consistently shows the lowest customer activity.  
+
+**Peak Hours:**  
+- The lunch period from 11 AM to 1 PM represents peak ordering time.  
+- Evening hours between 5 PM and 7 PM create a secondary demand surge.  
+- Overnight hours from 11 PM to 6 AM show minimal customer engagement.  
+
+**Customer Behavior:**  
+- Customers prefer shopping during lunch breaks and after work hours.  
+- Two distinct daily peaks indicate office workers and evening shoppers.  
+- Weekend ordering patterns suggest leisure time for researching expensive electronics purchases.  
+
+**Shopping Patterns:**  
+- Business hours drive the majority of purchase activity.  
+- Night-time shows minimal engagement as electronics require careful consideration rather than impulse buying.  
+- Consistent patterns suggest customers need daylight hours to research high-value purchases and compare products.
+
+</details>
+
+---
+
+### **Time Analysis – Recommendations**
+
+- Schedule maximum customer service and technical support staff during 10 AM-2 PM lunch rush to handle increased inquiry volume and reduce response times during peak ordering periods.  
+- Ensure adequate inventory levels for Friday-Sunday peak periods when customers have extended time to research high-value electronics and require detailed product support.  
+- Schedule promotional campaigns and email marketing during 10 AM-2 PM peak hours to maximize engagement when customer activity and conversion potential are highest, while enhancing customer experience through built-in price and model comparison tools for similar electronic products.  
+- Implement targeted promotions and special offers on Thursday to boost the consistently low order volume and drive traffic during the week's slowest performance day.  
+- Make checkout faster and simpler during lunch hours (10 AM-2 PM) through methods like one-click payment options and guest checkout without account creation, so busy customers can complete purchases quickly without abandoning their carts, which helps maintain high order volumes that drive revenue growth.
