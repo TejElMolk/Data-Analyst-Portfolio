@@ -487,14 +487,18 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 - **Create tiered promotional strategies** - develop different approaches for each basket segment rather than one-size-fits-all campaigns, focusing on moving small baskets up and protecting large basket loyalty to balance revenue sources
 
 
-**5. Customer Analysis**
+### **5. Customer Analysis**
+
+<details>
+<summary><b>Question: How does customer retention and spending vary across occasional, recurrent, and loyal customers, and what risks or opportunities arise from revenue concentration?</b></summary>
+
+<br>
 
 *This analysis focuses only on rows where all essential customer information is available, including User_ID, Order_ID, Segment, and Basket Size. Rows with missing data have been excluded to ensure accurate and meaningful insights.*
 
-- **Question :** How does customer retention and spending vary across occasional, recurrent, and loyal customers, and what risks or opportunities arise from revenue concentration?
-
 <img src="Images/Customer Analysis (1).png" alt="Customer Analysis" width="1000">
- <table>
+
+<table>
   <tr>
     <td>
       <img src="Images/Customer Analysis (2).png" alt="Customer Analysis" width="800">
@@ -524,9 +528,12 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 - Since occasional buyers typically return within 25 days, create a follow-up campaign for customers who haven't bought again after 20 days. Send them personalized emails with product suggestions based on what they first bought, special discounts, or related items they might need during days 20-30 after their purchase. This 25-day window gives us a clear target to reach out to customers before we lose them completely, helping convert more of the 68.2% one-time buyers into repeat customers.
 - Implement tiered pricing based on CLV segments. Offer premium products to loyal customers ($7,327 CLV) and targeted discounts to occasional buyers ($261 CLV) during their 25-day conversion window.
         
-      **Actionable steps:**
+   **Actionable steps:**
       
-      - Set discount triggers at day 20 for occasional customers
-      - Create premium bundles for loyal customers
-      - Monitor weekly conversion metrics by segment<br>
+  - Set discount triggers at day 20 for occasional customers
+  - Create premium bundles for loyal customers
+  - Monitor weekly conversion metrics by segment<br>
 - Target recurrent customers' second purchase with bundle offers and premium upgrades. Since they trust the brand enough to return, introduce product packages and complementary items to increase their basket size from small to medium like Offer "frequently bought together" suggestions at checkout or Send premium product recommendations via email before second visit
+
+</details>
+
