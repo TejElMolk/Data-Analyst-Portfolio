@@ -221,9 +221,9 @@ Electronics, appliances, computers, and products labeled as “Unknown” accoun
 <details>
 <summary><b>Question: How have sales for products and categories changed over time?</b></summary><br>
 
-<img src="Images/Product_Category_Analysis (8).png" alt="Product_Category_Analysis" width="500">
+<img src="Images/Product_Category_Analysis (8).png" alt="Product_Category_Analysis" width="800">
 <br>
-<img src="Images/Product_Category_Analysis (9).png" alt="Product_Category_Analysis" width="500">
+<img src="Images/Product_Category_Analysis (9).png" alt="Product_Category_Analysis" width="800">
 
 
 *Monthly sales are aggregated at the category level to reduce granularity and highlight clear trends, making the analysis easier to interpret.*  
