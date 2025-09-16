@@ -521,8 +521,11 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 - The CLV analysis reveals significant pricing inefficiencies across customer segments. Loyal customers generate $7,327 versus $261 for occasional buyers (28x difference), yet current pricing treats both equally. This creates a $6,000+ revenue opportunity gap per customer by undercharging high-value segments while potentially overpricing occasional customers at their crucial second purchase point, resulting in poor profitability across all customer types.
 - Recurrent customers demonstrate behavioral trust through repeat purchases but fail to exhibit spending confidence, maintaining small basket sizes equivalent to occasional buyers. This indicates an incomplete trust-building mechanism that captures purchase frequency but not transaction value expansion, resulting in missed revenue opportunities until customers reach loyal segment status.
 - All customer segments prefer identical product categories (graph TOP 3 Categories shows : electronics, appliances, computers), indicating the business has strong product-market fit but faces operational execution issues - since customers like the products but 68.2% only purchase once, the retention problems likely emerge from service delivery, customer experience, or fulfillment processes rather than product selection.
+</details>
 
-**Customer Analysis – Recommendations**
+---
+
+### **Customer Analysis – Recommendations**
 
 - The electronics store's risky money setup (loyal customers 45%, occasional 35%, recurrent 20%) should be changed to a safer spread (occasional 40%, recurrent 35%, loyal 25%) by getting customers to spend more money per purchase through selling product packages and premium versions instead of trying to make them shop more often, so the business doesn't rely too heavily on just one type of customer.
 - Since occasional buyers typically return within 25 days, create a follow-up campaign for customers who haven't bought again after 20 days. Send them personalized emails with product suggestions based on what they first bought, special discounts, or related items they might need during days 20-30 after their purchase. This 25-day window gives us a clear target to reach out to customers before we lose them completely, helping convert more of the 68.2% one-time buyers into repeat customers.
@@ -535,5 +538,4 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
   - Monitor weekly conversion metrics by segment<br>
 - Target recurrent customers' second purchase with bundle offers and premium upgrades. Since they trust the brand enough to return, introduce product packages and complementary items to increase their basket size from small to medium like Offer "frequently bought together" suggestions at checkout or Send premium product recommendations via email before second visit
 
-</details>
 
