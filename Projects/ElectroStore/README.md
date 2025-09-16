@@ -595,6 +595,6 @@ This analysis of the electrostore company dataset (Jan–Nov 2020) highlights ke
 
 ## VIII. Dashboard
 
-<img src="Images/Dashboard.png" alt="Dashboard" width="1000">
+<img src="Images/Dashboard.png" alt="Dashboard" width="1100">
 
 
