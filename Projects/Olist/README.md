@@ -139,9 +139,9 @@ This step ensures a clear overview of the dataset before performing deeper analy
 
   <img src="Images/SQL_code_5.png" alt="SQL" width="800">
 
-  <img src="Images/SQL_code_6.png" alt="SQL" width="800">
+  <img src="Images/Tab_1.png.png" alt="Tab" width="800">
 
-  <img src="Images/SQL_code_7.png" alt="SQL" width="800">
+  <img src="Images/Tab_2.png.png" alt="Tab" width="800">
 
 **Note:**
 
@@ -164,13 +164,13 @@ This step ensures a clear overview of the dataset before performing deeper analy
 
 These observations will guide data cleaning and type conversion in later steps.
 
+  <img src="Images/SQL_code_6.png" alt="SQL" width="800">
+
+  <img src="Images/SQL_code_7.png" alt="SQL" width="800">
+
   <img src="Images/SQL_code_8.png" alt="SQL" width="800">
 
   <img src="Images/SQL_code_9.png" alt="SQL" width="800">
-
-  <img src="Images/SQL_code_10.png" alt="SQL" width="800">
-
-  <img src="Images/SQL_code_11.png" alt="SQL" width="800">
 
 </details>
 
@@ -292,7 +292,7 @@ Step 6 confirmed:
 
 > This step ensures that the dataset is clean, consistent, and ready for analysis while maintaining relational integrity.
 
-  <img src="Images/SQL_code_12.png" alt="SQL" width="800">
+  <img src="Images/SQL_code_10.png" alt="SQL" width="800">
 
 </details>
 
