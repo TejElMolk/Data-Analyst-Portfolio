@@ -141,9 +141,18 @@ The project aims to analyze January–November 2020 data from a large online ele
 <details>
 <summary><b>Question: Which products or categories generated the most revenue?</b></summary><br>
 
-![Capture d’écran 2025-09-02 à 19.12.34.png](attachment:f7bce54f-0667-4a11-abc2-5b7f08da2891:ac3085be-dbaf-4086-b196-a8399d7c0838.png)
-
-![Capture d’écran 2025-09-09 à 11.50.34.png](attachment:de039555-6951-4739-8a30-b6c7909a02f3:Capture_decran_2025-09-09_a_11.50.34.png)
+<table>
+  <tr>
+    <td>
+      <img src="Images/Product_Category_Analysis (1).png" alt="Product_Category_Analysis (1)" width="500">
+      <p align="center"><i>Product_Category_Analysis</i></p>
+    </td>
+    <td>
+      <img src="Product_Category_Analysis (2).png" alt="Product_Category_Analysis (2)" width="500">
+      <p align="center"><i>Product_Category_Analysis</i></p>
+    </td>
+  </tr>
+</table>
 
 **Key insight:**  
 Electronics, appliances, computers, and products labeled as “Unknown” account for 97.32% of total revenue, while the remaining categories contribute only 2.68%, indicating minimal impact. The store’s revenue is heavily reliant on these four categories.
