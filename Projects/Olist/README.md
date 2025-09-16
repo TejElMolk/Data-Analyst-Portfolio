@@ -58,7 +58,7 @@ This step ensures a clear overview of the dataset before performing deeper analy
 
 **SQL Code:**
 
-![Capture d’écran 2025-09-10 à 15.01.26.png](attachment:c0df0657-197c-4eb9-928b-2df524deab59:Capture_decran_2025-09-10_a_15.01.26.png)
+  <img src="Images/SQL_code_1.png" alt="SQL" width="800">
 
 </details>
 
