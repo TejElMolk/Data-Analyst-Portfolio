@@ -82,7 +82,7 @@ This step ensures a clear overview of the dataset before performing deeper analy
 
 **Sample SQL Code :**
 
-  <img src="Images/SQL_code_2.png" alt="SQL" width="800">
+  <img src="Images/SQL_code_2.png" alt="SQL" width="500">
 
 </details>
 
@@ -102,7 +102,7 @@ This step ensures a clear overview of the dataset before performing deeper analy
 
 **SQL code :**
 
-  <img src="Images/SQL_code_3.png" alt="SQL" width="800">
+  <img src="Images/SQL_code_3.png" alt="SQL" width="500">
 
 **Tables without natural PKs:**
 
@@ -124,7 +124,7 @@ This step ensures a clear overview of the dataset before performing deeper analy
 
 **SQL code:**
 
-  <img src="Images/SQL_code_4.png" alt="SQL" width="800">
+  <img src="Images/SQL_code_4.png" alt="SQL" width="500">
 
 </details>
 
@@ -137,11 +137,11 @@ This step ensures a clear overview of the dataset before performing deeper analy
 
 - Customers → Orders → Order Items → Products/Sellers → Payments & Reviews
 
-  <img src="Images/SQL_code_5.png" alt="SQL" width="800">
+  <img src="Images/SQL_code_5.png" alt="SQL" width="500">
 
-  <img src="Images/Tab_1.png.png" alt="Tab" width="800">
+  <img src="Images/Tab_1.png.png" alt="Tab" width="500">
 
-  <img src="Images/Tab_2.png.png" alt="Tab" width="800">
+  <img src="Images/Tab_2.png.png" alt="Tab" width="500">
 
 **Note:**
 
@@ -164,13 +164,13 @@ This step ensures a clear overview of the dataset before performing deeper analy
 
 These observations will guide data cleaning and type conversion in later steps.
 
-  <img src="Images/SQL_code_6.png" alt="SQL" width="800">
+  <img src="Images/SQL_code_6.png" alt="SQL" width="500">
 
-  <img src="Images/SQL_code_7.png" alt="SQL" width="800">
+  <img src="Images/SQL_code_7.png" alt="SQL" width="500">
 
-  <img src="Images/SQL_code_8.png" alt="SQL" width="800">
+  <img src="Images/SQL_code_8.png" alt="SQL" width="500">
 
-  <img src="Images/SQL_code_9.png" alt="SQL" width="800">
+  <img src="Images/SQL_code_9.png" alt="SQL" width="500">
 
 </details>
 
@@ -272,7 +272,7 @@ We checked for logical duplicates across tables:
 </details>
 
 <details>
-<summary>E. Column Type and Naming Considerations</summary>
+<summary>E. Column Type and Naming Considerations</summary><br>
 
 - Date columns stored as TEXT should be converted to TIMESTAMP for efficient temporal operations.  
 - Numeric columns representing counts (e.g., dimensions, weights) should use INT instead of DOUBLE to optimize performance.  
@@ -292,7 +292,7 @@ Step 6 confirmed:
 
 > This step ensures that the dataset is clean, consistent, and ready for analysis while maintaining relational integrity.
 
-  <img src="Images/SQL_code_10.png" alt="SQL" width="800">
+  <img src="Images/SQL_code_10.png" alt="SQL" width="500">
 
 </details>
 
