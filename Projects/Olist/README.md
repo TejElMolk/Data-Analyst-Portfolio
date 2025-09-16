@@ -166,11 +166,11 @@ These observations will guide data cleaning and type conversion in later steps.
 
   <img src="Images/SQL_code_6.png" alt="SQL" width="800"><br>
 
-  <img src="Images/SQL_code_7.png" alt="SQL" width="500"><br>
+  <img src="Images/SQL_code_7.png" alt="SQL" width="800"><br>
 
-  <img src="Images/SQL_code_8.png" alt="SQL" width="500"><br>
+  <img src="Images/SQL_code_8.png" alt="SQL" width="800"><br>
 
-  <img src="Images/SQL_code_9.png" alt="SQL" width="500">
+  <img src="Images/SQL_code_9.png" alt="SQL" width="800">
 
 </details>
 
