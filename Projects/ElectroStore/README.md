@@ -253,4 +253,78 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 - **Act on growth trends:** Use the heatmap to identify months and categories with strong growth %, and run promotions during these periods.  
 - For categories showing strong growth %, ensure sufficient stock to meet potential increased demand.  
 
-       
+
+### **2. Frequency of Purchase Analysis**
+
+***Customer Segmentation Overview***
+
+*To better understand purchase behavior, customers were classified into three segments based on their **number of orders**:*
+
+- ***Occasional Customers** – made **only 1 order**.*  
+- ***Recurrent Customers** – made **exactly 2 orders**.*  
+- ***Loyal Customers** – made **3 or more orders**.*  
+
+*This segmentation allows us to compare purchasing frequency, repeat patterns, and retention rates across different customer types*
+
+<details>
+<summary><b>Question: How frequently do loyal and recurrent customers make purchases?</b></summary><br>
+
+<img src="Images/Frequency of Purchase Analysis(1).png" alt="Frequency of Purchase Analysis" width="500">
+
+**Key insight:**  
+- **Loyal customers purchase 17% faster** than recurrent customers (25 vs 30 days)  
+- Per year Loyal customers buy every 25 days (365 days / 25 days) then they order 14.6 orders VS 12.2 orders (365 days / 30 days) per year for recurrent customers who buy every 30 days  
+- **Loyal customers make 2.4 (14.6 - 12.2) more purchases annually so in fine they buy 19.7% more often than recurrent customer**
+
+</details>
+
+---
+
+<details>
+<summary><b>Question: When do repeat customers typically make their second purchase?</b></summary><br>
+
+<table>
+  <tr>
+    <td>
+      <img src="Images/Frequency of Purchase Analysis (2).png" alt="Frequency of Purchase Analysis" width="300">
+      <p align="center"><i>Product_Category_Analysis</i></p>
+    </td>
+    <td>
+      <img src="Images/Frequency of Purchase Analysis (3).png" alt="Frequency of Purchase Analysis" width="500">
+      <p align="center"><i>Product_Category_Analysis</i></p>
+    </td>
+  </tr>
+</table>
+
+**Key insight:**  
+- **71–72% of repeat customers** make their second purchase within the **first month**, indicating strong early engagement.  
+- However, we observe a sharp drop in repeat purchases, from 72% in month 1 to around 11–20% in month 2. For the electronic store, the second month acts as a critical decision point: if customers do not return during this period, there is a high likelihood that they will never come back, effectively turning into churn.  
+- After **10 months or more**, repeat purchases become extremely rare, with only **0.15–0.28% of customers** buying again.
+
+</details>
+
+---
+
+<details>
+<summary><b>Question: How does the store perform on customer retention compared to the industry?</b></summary><br>
+
+<img src="Images/Frequency of Purchase Analysis (4).png" alt="Frequency of Purchase Analysis" width="500">
+
+**Key insight:**  
+- In general The average e-commerce customer retention rate generally falls between 28% and 30%. The electronic store achieves a 31.8% customer retention rate, meaning nearly 1 in 3 customers return for additional purchases.  
+- However, the 68.2% one-time buyer rate represents a significant opportunity for improvement.
+
+</details>
+
+---
+
+### **Frequency of Purchase – Recommendations**
+
+- **Boost early repeat purchases:** Focus on converting first-time buyers in their first month with targeted offers or reminders.  
+- **Encourage loyalty:** Implement loyalty programs or incentives to increase purchase frequency and turn recurrent buyers into loyal customers.  
+- **Reduce churn after month 2:** Target customers who don’t return in the second month with special promotions or personalized campaigns.  
+- **Leverage purchase insights:**  
+    - Analyze how often different types of customers buy (e.g., loyal customers every 25 days, recurrent customers every 30 days).  
+    - Send promotions, reminders, or personalized offers around the time a customer is likely to make their next purchase to increase conversion.  
+    - Stock popular products based on predicted buying cycles to avoid shortages and ensuring availability when customers are most likely to buy.
+
