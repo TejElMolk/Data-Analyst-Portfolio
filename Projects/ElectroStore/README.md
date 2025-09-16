@@ -419,7 +419,7 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 <details>
 <summary><b>Question: How do different basket sizes (small, average, large) contribute to overall revenue and order volume?</b></summary><br>
 
-<img src="Images/Basket_Analysis_1.png" alt="Basket Analysis" width="500"><br>
+<img src="Images/Basket_Analysis_1.png" alt="Basket Analysis" width="500">
 
 **Key insight:**  
 - Small baskets dominate order flow (62%), but their low AOV ($58 vs. $239 overall) means they contribute very little to overall revenue. This indicates that many customers use the store for quick, low-value purchases such as accessories or small gadgets.  
@@ -447,16 +447,7 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 </details>
 
 ---
-<details>
-<summary><b>Question: On which days and at what hours do customers place the most orders, and what patterns emerge from their daily shopping behavior?</b></summary><br>
 
-<img src="https://raw.githubusercontent.com/username/repo/main/Images/Basket_Analysis_3.png" alt="Basket Analysis" width="800">
-
-**Key insight:**
-</details>
-
-
---
 <details>
 <summary><b>Question: On which days and at what hours do customers place the most orders, and what patterns emerge from their daily shopping behavior?</b></summary><br>
 
