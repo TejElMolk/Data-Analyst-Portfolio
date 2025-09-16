@@ -6,7 +6,7 @@
 
 # NETFLIX PORTFOLIO PROJECT
 
-![image.png](attachment:292b4273-92e3-4f84-9212-9ca2deec66d8:image.png)
+<img src="Images/Distribution of Movies vs TV Shows (1).png" alt="Distribution of Movies vs TV Shows (1).png" width="600">
 
 ## I. Introduction / Context
 
