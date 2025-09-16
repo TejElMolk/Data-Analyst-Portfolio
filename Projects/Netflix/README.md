@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="Images/logo_netflix.png" alt="logo_netflix.png" width="200">
+</p>
+
+
+
 # NETFLIX PORTFOLIO PROJECT
 
 ![image.png](attachment:292b4273-92e3-4f84-9212-9ca2deec66d8:image.png)
