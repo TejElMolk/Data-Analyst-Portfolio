@@ -539,3 +539,62 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 - Target recurrent customers' second purchase with bundle offers and premium upgrades. Since they trust the brand enough to return, introduce product packages and complementary items to increase their basket size from small to medium like Offer "frequently bought together" suggestions at checkout or Send premium product recommendations via email before second visit
 
 
+## V. Recommendations
+
+### **1. Focus on Top Products & Clean Data**
+
+- Keep promoting electronics, appliances, and computers — they bring in most of the revenue.
+- Fix the “Unknown” category so product performance is tracked accurately.
+- Add bundles or related products (e.g., phone + charger + case) to raise average order value.
+
+### **2. Encourage Repeat Purchases**
+
+- Send reminder emails or special offers to customers who haven’t purchased again after 20–30 days.
+- Create a simple loyalty program (points, discounts, or free shipping after a few orders).
+- Offer perks for high-spending customers to keep them engaged.
+
+### **3. Use Timing to Boost Sales**
+
+- Run promotions during peak shopping hours (11 AM–1 PM and 5–7 PM).
+- Try special Thursday discounts to lift sales on slower days.
+- Prepare stock and campaigns ahead of strong months (May–August).
+
+### **4. Increase Basket Size**
+
+- Show “frequently bought together” or “you may also like” suggestions on product pages and at checkout.
+- Offer small discounts for buying multiple items (e.g., buy 2, save 10%).
+- Suggest premium versions or accessories to returning customers.
+
+### **5. Balance Revenue Between Customer Types**
+
+- Convert one-time buyers into repeat customers with small incentives.
+- Track spending by customer groups and adjust offers accordingly.
+- Watch weekly data for signs of churn among big spenders and re-engage them quickly.
+
+### **6. Support Growth with Operations**
+
+- Keep popular products in stock, especially during weekends and campaigns.
+- Ensure customer service is available at peak hours so purchases are not interrupted.
+- Regularly clean and update the data for better future analysis.
+
+## VI. Limitations
+
+The project uses an e-commerce dataset containing 2,633,521 transactional records, with **one product per row** rather than aggregated by order or user. Data quality imposes several limitations:
+
+- **Incomplete or anomalous data:** Only 8% of rows are fully complete and usable. 16.25% contain critical missing values (`event_time`, `order_id`, `product_model_id`, `category_id`, `price`) and were excluded. 75% of rows have non-critical missing values (`category_name`, `sub_category_name`, `product_name`, `brand_name`, `user_id`) and were used partially.
+- **Corrupted data:** 0.75% of rows contained corrupted timestamps (`01/01/1970 00:33:40`) and were removed.
+- **Timeframe and representativeness:** Data covers January to November 2020, during the COVID-19 pandemic, which may not reflect typical shopping behavior.
+- **Limited company context:** Very little information is available about the company itself or external events affecting sales, although product offerings are known.
+- **Dataset structure:** Each row represents a single product purchased, not aggregated by order or user, which limits some types of analysis (e.g., total order value or multi-product bundles per customer).
+
+Analyses are therefore **exploratory and descriptive**, based on available transactions, and recommendations consider these constraints. Conclusions may not be generalizable to other periods or stores.
+
+## VII. Conclusion
+
+This analysis of the electrostore company dataset (Jan–Nov 2020) highlights key drivers of revenue and order volume, mainly from loyal customers and popular product categories. Time-based purchasing patterns and basket analysis reveal opportunities to increase basket size and improve customer retention. Despite data limitations, these insights can help the store optimize marketing, better manage high-value customer segments, and guide operational decisions to boost profitability.
+
+## VIII. Dashboard
+
+<img src="Images/Dashboard.png" alt="Dashboard" width="1000">
+
+
