@@ -892,9 +892,6 @@ These patterns suggest that many sellers are choosing familiar or visible catego
 
 This analysis of Olist’s data from 2016 to 2018 shows strong growth in revenue and orders, mainly driven by gaining new customers and popular product categories. Seasonal trends and differences across regions show chances for more balanced growth, while low customer retention and underperforming sellers highlight areas that need improvement. These insights can help Olist focus marketing efforts, make better decisions about which product categories to promote or optimize, and support sellers to maintain growth and increase profitability.
 
-</details>
 
-<details>
-  
 ## VIII. Dashboard
 
