@@ -144,11 +144,11 @@ The project aims to analyze January–November 2020 data from a large online ele
 <table>
   <tr>
     <td>
-      <img src="Images/Product_Category_Analysis (1).png" alt="Product_Category_Analysis (1)" width="500">
+      <img src="Images/Product_Category_Analysis (1).png" alt="Product_Category_Analysis" width="300">
       <p align="center"><i>Product_Category_Analysis</i></p>
     </td>
     <td>
-      <img src="Product_Category_Analysis (2).png" alt="Product_Category_Analysis (2)" width="500">
+      <img src="Images/Product_Category_Analysis (2).png" alt="Product_Category_Analysis" width="300">
       <p align="center"><i>Product_Category_Analysis</i></p>
     </td>
   </tr>
