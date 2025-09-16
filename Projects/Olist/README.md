@@ -402,7 +402,8 @@ Step 6 confirmed:
 
 **After fixing types, handling missing values, removing duplicates, and standardizing data, the Olist dataset is clean and structured. All major quality issues are resolved, making it ready for the next step the Exploratory Data Analysis to discover trends, relationships, and insights.**
 
-
+---
+IV. Exploratory Data Analysis (EDA)
 ---   
 
 ### Revenue Analysis 
