@@ -41,7 +41,7 @@ The project aims to analyze Olist’s 2016–2018 data to identify key trends an
 ## II. Data Exploration
 
 <details>
-<summary>STEP 1 – Identify All Tables in the Dataset</summary>
+<summary>STEP 1 – Identify All Tables in the Dataset</summary><br>
 
 **Objective:** Understand the overall dataset structure and the tables it contains.
 
@@ -63,7 +63,7 @@ This step ensures a clear overview of the dataset before performing deeper analy
 </details>
 
 <details>
-<summary>STEP 2 – Explore Individual Tables</summary>
+<summary>STEP 2 – Explore Individual Tables</summary><br>
 
 **Objective:** Explore each table to understand its structure, size, and sample content.
 
@@ -82,12 +82,12 @@ This step ensures a clear overview of the dataset before performing deeper analy
 
 **Sample SQL Code :**
 
-![Capture d’écran 2025-09-10 à 15.06.37.png](attachment:f19652e2-e326-4544-8001-aa66b41e2d02:Capture_decran_2025-09-10_a_15.06.37.png)
+  <img src="Images/SQL_code_2.png" alt="SQL" width="800">
 
 </details>
 
 <details>
-<summary>STEP 3 – Define Primary and Foreign Keys</summary>
+<summary>STEP 3 – Define Primary and Foreign Keys</summary><br>
 
 **Objective:** Ensure data integrity by identifying primary keys (PK) and foreign keys (FK) for the dataset.
 
@@ -102,7 +102,7 @@ This step ensures a clear overview of the dataset before performing deeper analy
 
 **SQL code :**
 
-![Capture d’écran 2025-09-10 à 15.13.06.png](attachment:e658d78c-3dff-47e8-9d5a-1b015e249038:Capture_decran_2025-09-10_a_15.13.06.png)
+  <img src="Images/SQL_code_3.png" alt="SQL" width="800">
 
 **Tables without natural PKs:**
 
@@ -124,12 +124,12 @@ This step ensures a clear overview of the dataset before performing deeper analy
 
 **SQL code:**
 
-![Capture d’écran 2025-09-10 à 15.14.03.png](attachment:1e12532b-02df-4514-978f-5c5cf6a41c04:Capture_decran_2025-09-10_a_15.14.03.png)
+  <img src="Images/SQL_code_4.png" alt="SQL" width="800">
 
 </details>
 
 <details>
-<summary>STEP 4 – Identify Relationships Between Tables</summary>
+<summary>STEP 4 – Identify Relationships Between Tables</summary><br>
 
 **Objective:** Detect logical relationships and dependencies to support future JOIN operations.
 
@@ -137,11 +137,11 @@ This step ensures a clear overview of the dataset before performing deeper analy
 
 - Customers → Orders → Order Items → Products/Sellers → Payments & Reviews
 
-![Capture d’écran 2025-09-10 à 15.19.59.png](attachment:0f39dfbe-49cf-43c4-8fca-fbd8913e62ba:Capture_decran_2025-09-10_a_15.19.59.png)
+  <img src="Images/SQL_code_5.png" alt="SQL" width="800">
 
-![Capture d’écran 2025-07-05 à 12.36.44.png](attachment:c765d89a-1a72-4e5c-94ef-93538c2a562f:Capture_dcran_2025-07-05__12.36.44.png)
+  <img src="Images/SQL_code_6.png" alt="SQL" width="800">
 
-![Capture d’écran 2025-07-05 à 12.36.08.png](attachment:14b4bf7b-d9b5-4a11-b13c-00f6960bb834:Capture_dcran_2025-07-05__12.36.08.png)
+  <img src="Images/SQL_code_7.png" alt="SQL" width="800">
 
 **Note:**
 
@@ -151,7 +151,7 @@ This step ensures a clear overview of the dataset before performing deeper analy
 </details>
 
 <details>
-<summary>STEP 5 – Identify Columns, Their Characteristics, and Data Quality Observations</summary>
+<summary>STEP 5 – Identify Columns, Their Characteristics, and Data Quality Observations</summary><br>
 
 **Objective:** Examine columns for data types, lengths, and potential issues.
 
@@ -164,23 +164,23 @@ This step ensures a clear overview of the dataset before performing deeper analy
 
 These observations will guide data cleaning and type conversion in later steps.
 
-![Capture d’écran 2025-09-10 à 15.21.57.png](attachment:3bbb2bb7-9a52-4059-a196-d903abfe4d22:Capture_decran_2025-09-10_a_15.21.57.png)
+  <img src="Images/SQL_code_8.png" alt="SQL" width="800">
 
-![Capture d’écran 2025-09-10 à 15.21.37.png](attachment:24dbda01-661e-40e6-b8e8-0e077744f406:Capture_decran_2025-09-10_a_15.21.37.png)
+  <img src="Images/SQL_code_9.png" alt="SQL" width="800">
 
-![Capture d’écran 2025-09-10 à 15.21.06.png](attachment:819d127a-14ea-4ea3-83dd-25057b9de883:Capture_decran_2025-09-10_a_15.21.06.png)
+  <img src="Images/SQL_code_10.png" alt="SQL" width="800">
 
-![Capture d’écran 2025-09-10 à 15.21.22.png](attachment:315609dc-e173-4a83-b72d-d27046a56691:Capture_decran_2025-09-10_a_15.21.22.png)
+  <img src="Images/SQL_code_11.png" alt="SQL" width="800">
 
 </details>
 
 <details>
-<summary>STEP 6 – Identify Missing or Inconsistent Values</summary>
+<summary>STEP 6 – Identify Missing or Inconsistent Values</summary><br>
 
 **Objective:** Ensure data quality by detecting missing values, duplicates, outliers, and timestamp inconsistencies across all tables.
 
 <details>
-<summary>A. Missing Values Analysis</summary>
+<summary>A. Missing Values Analysis</summary><br>
 
 We systematically checked each table for NULL or missing values:
 
@@ -211,7 +211,7 @@ We systematically checked each table for NULL or missing values:
 </details>
 
 <details>
-<summary>B. Duplicate Detection</summary>
+<summary>B. Duplicate Detection</summary><br>
 
 We checked for logical duplicates across tables:
 
@@ -243,7 +243,7 @@ We checked for logical duplicates across tables:
 </details>
 
 <details>
-<summary>C. Outlier and Inconsistency Checks</summary>
+<summary>C. Outlier and Inconsistency Checks</summary><br>
 
 - **Numeric columns:** Checked for negative values and unreasonable ranges.  
     - `price`, `freight_value`, `payment_value`: all ≥ 0  
@@ -254,7 +254,7 @@ We checked for logical duplicates across tables:
 </details>
 
 <details>
-<summary>D. Timestamp and Chronological Consistency</summary>
+<summary>D. Timestamp and Chronological Consistency</summary><br>
 
 - **Orders:** Ensured logical date sequence:  
     - `order_approved_at` ≥ `order_purchase_timestamp`  
@@ -292,7 +292,7 @@ Step 6 confirmed:
 
 > This step ensures that the dataset is clean, consistent, and ready for analysis while maintaining relational integrity.
 
-![Capture d’écran 2025-09-10 à 15.22.53.png](attachment:ed8d9b60-9a04-4a6c-9358-1dccd9c9907a:Capture_decran_2025-09-10_a_15.22.53.png)
+  <img src="Images/SQL_code_12.png" alt="SQL" width="800">
 
 </details>
 
