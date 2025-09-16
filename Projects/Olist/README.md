@@ -812,8 +812,7 @@ These patterns suggest that many sellers are choosing familiar or visible catego
 
 </details>
 
-<details>
-<summary>## V. Recommendations</summary><br>
+## V. Recommendations
 
 ### **1. Revenue & Growth**
 
@@ -854,8 +853,8 @@ These patterns suggest that many sellers are choosing familiar or visible catego
 
 </details>
 
-<details>
-<summary>## VI. Limitations</summary><br>
+
+## VI. Limitations
 
 - Some **missing values** remain in review comments and product details, which limits the depth of analysis on customer feedback and product characteristics.
 - The dataset is **unevenly distributed** toward certain regions (like São Paulo) and customer segments (mostly new customers), which may bias trends and make it harder to generalize insights across all states or customer types.
@@ -866,8 +865,8 @@ These patterns suggest that many sellers are choosing familiar or visible catego
 
 </details>
 
-<details>
-<summary>## VII. Conclusion</summary><br>
+
+## VII. Conclusion
 
 This analysis of Olist’s data from 2016 to 2018 shows strong growth in revenue and orders, mainly driven by gaining new customers and popular product categories. Seasonal trends and differences across regions show chances for more balanced growth, while low customer retention and underperforming sellers highlight areas that need improvement. These insights can help Olist focus marketing efforts, make better decisions about which product categories to promote or optimize, and support sellers to maintain growth and increase profitability.
 
