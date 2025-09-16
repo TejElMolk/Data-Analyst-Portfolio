@@ -895,7 +895,6 @@ This analysis of Olist’s data from 2016 to 2018 shows strong growth in revenue
 </details>
 
 <details>
-<summary>## VIII. Dashboard</summary>
+  
+## VIII. Dashboard
 
-
-</details>
