@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="Images/logo_Olist.png" alt="logo_Olist.png" width="200">
+</p>
+
+
 ## I. Introduction
 
 ### **Who is Olist?**
