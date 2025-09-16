@@ -708,9 +708,11 @@ To analyze Olist's geographic performance across Brazilian states by comparing o
 </details>
 
 
-<details>
-<summary>### Sellers and Geography Analysis - Question 7 **Who are the sellers on Olist with the lowest performance in terms of revenue and number of orders between 2016 and 2018? Are these low-performing sellers recently onboarded, and what products do they sell? Can negative customer reviews or specific product categories explain their poor performance?** </summary><br>
+### Sellers and Geography Analysis
 
+**Question 7:** Who are the sellers on Olist with the lowest performance in terms of revenue and number of orders between 2016 and 2018? Are these low-performing sellers recently onboarded, and what products do they sell? Can negative customer reviews or specific product categories explain their poor performance?
+<details>
+<summary>Click to expand</summary>
 
 While many analyses of the Olist dataset focus on order volume or product categories, I chose to prioritize the sellers, who are Olist’s direct business customers. Understanding who they are, why some succeed, and why others fail is critical to Olist's long-term growth. This deep dive allowed me to identify key strategic behaviors among top sellers and recurring issues among underperformers — offering actionable insights for platform improvement.
 
