@@ -485,3 +485,48 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 - **Redesign product recommendation systems** - since even peak shopping hours fail to drive basket sizes above 1.67 items, focus on systematic product page improvements with prominent complementary items rather than timing-based strategies  
 - **Develop customer retention programs for large basket segment (26% of orders)** - since this small group generates disproportionate revenue, implement VIP programs and personalized experiences to prevent churn that could cause significant revenue decline  
 - **Create tiered promotional strategies** - develop different approaches for each basket segment rather than one-size-fits-all campaigns, focusing on moving small baskets up and protecting large basket loyalty to balance revenue sources
+
+
+**5. Customer Analysis**
+
+*This analysis focuses only on rows where all essential customer information is available, including User_ID, Order_ID, Segment, and Basket Size. Rows with missing data have been excluded to ensure accurate and meaningful insights.*
+
+- **Question :** How does customer retention and spending vary across occasional, recurrent, and loyal customers, and what risks or opportunities arise from revenue concentration?
+
+<img src="Images/Customer Analysis (1).png" alt="Customer Analysis" width="1000">
+ <table>
+  <tr>
+    <td>
+      <img src="Images/Customer Analysis (2).png" alt="Customer Analysis" width="800">
+      <p align="center"><i>Customer Analysis</i></p>
+    </td>
+    <td>
+      <img src="Images/Customer Analysis (3).png" alt="Customer Analysis" width="800">
+      <p align="center"><i>Customer Analysis</i></p>
+    </td>
+  </tr>
+</table>
+
+**Key insight:** 
+
+- **68.2% of customers have a purchase frequency of 1** - the electronics store acquired 159,397 customers with an average customer lifetime value (CLV) of $260. Customer acquisition is costly, and with 68.2% of customers only purchasing once, this indicates a significant problem with customer retention and loyalty.
+        
+**This retention issue creates a secondary problem: revenue concentration among loyal customers.** While the business struggles to retain most customers, it becomes overly dependent on the small segment that does stay loyal.
+        
+- **14.4% loyal customers control 45% of revenue** - losing 6,742 loyal customers reduces revenue by $10.5M while losing 31,879 occasional customers (4.6x more people) reduces revenue by only $8.3M, demonstrating that our electronics store has created a dangerous revenue concentration where a small customer group of 33,713 people generates more financial impact than the 159,397 occasional customers, making the business extremely fragile and vulnerable to targeted competitive attacks on this narrow customer segment.
+- The CLV analysis reveals significant pricing inefficiencies across customer segments. Loyal customers generate $7,327 versus $261 for occasional buyers (28x difference), yet current pricing treats both equally. This creates a $6,000+ revenue opportunity gap per customer by undercharging high-value segments while potentially overpricing occasional customers at their crucial second purchase point, resulting in poor profitability across all customer types.
+- Recurrent customers demonstrate behavioral trust through repeat purchases but fail to exhibit spending confidence, maintaining small basket sizes equivalent to occasional buyers. This indicates an incomplete trust-building mechanism that captures purchase frequency but not transaction value expansion, resulting in missed revenue opportunities until customers reach loyal segment status.
+- All customer segments prefer identical product categories (graph TOP 3 Categories shows : electronics, appliances, computers), indicating the business has strong product-market fit but faces operational execution issues - since customers like the products but 68.2% only purchase once, the retention problems likely emerge from service delivery, customer experience, or fulfillment processes rather than product selection.
+
+**Customer Analysis – Recommendations**
+
+- The electronics store's risky money setup (loyal customers 45%, occasional 35%, recurrent 20%) should be changed to a safer spread (occasional 40%, recurrent 35%, loyal 25%) by getting customers to spend more money per purchase through selling product packages and premium versions instead of trying to make them shop more often, so the business doesn't rely too heavily on just one type of customer.
+- Since occasional buyers typically return within 25 days, create a follow-up campaign for customers who haven't bought again after 20 days. Send them personalized emails with product suggestions based on what they first bought, special discounts, or related items they might need during days 20-30 after their purchase. This 25-day window gives us a clear target to reach out to customers before we lose them completely, helping convert more of the 68.2% one-time buyers into repeat customers.
+- Implement tiered pricing based on CLV segments. Offer premium products to loyal customers ($7,327 CLV) and targeted discounts to occasional buyers ($261 CLV) during their 25-day conversion window.
+        
+      **Actionable steps:**
+      
+      - Set discount triggers at day 20 for occasional customers
+      - Create premium bundles for loyal customers
+      - Monitor weekly conversion metrics by segment<br>
+- Target recurrent customers' second purchase with bundle offers and premium upgrades. Since they trust the brand enough to return, introduce product packages and complementary items to increase their basket size from small to medium like Offer "frequently bought together" suggestions at checkout or Send premium product recommendations via email before second visit
