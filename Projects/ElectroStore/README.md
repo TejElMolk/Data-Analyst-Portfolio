@@ -157,9 +157,18 @@ The project aims to analyze January–November 2020 data from a large online ele
 **Key insight:**  
 Electronics, appliances, computers, and products labeled as “Unknown” account for 97.32% of total revenue, while the remaining categories contribute only 2.68%, indicating minimal impact. The store’s revenue is heavily reliant on these four categories.
 
-![Capture d’écran 2025-09-02 à 20.08.23.png](attachment:0bfbd305-924f-4d5f-b459-6c25e4ade753:90fdd10e-bbc5-49c2-909a-03dff531b65c.png)
-
-![Capture d’écran 2025-09-09 à 11.52.27.png](attachment:1d0972c5-2300-434a-885d-9faacfd9337b:Capture_decran_2025-09-09_a_11.52.27.png)
+<table>
+  <tr>
+    <td>
+      <img src="Images/Product_Category_Analysis (3).png" alt="Product_Category_Analysis" width="300">
+      <p align="center"><i>Product_Category_Analysis</i></p>
+    </td>
+    <td>
+      <img src="Images/Product_Category_Analysis (4).png" alt="Product_Category_Analysis" width="500">
+      <p align="center"><i>Product_Category_Analysis</i></p>
+    </td>
+  </tr>
+</table>
 
 </details>  
 
@@ -168,9 +177,18 @@ Electronics, appliances, computers, and products labeled as “Unknown” accoun
 <details>
 <summary><b>Question: Which categories were purchased most frequently?</b></summary><br>
 
-![Capture d’écran 2025-09-02 à 20.44.21.png](attachment:a055930b-75ee-4c48-abb6-27d5f0826831:ccabfd99-a2a2-4afc-8a0f-fd77e39a0aaf.png)
-
-![Capture d’écran 2025-09-09 à 11.54.46.png](attachment:4341e602-b76d-41aa-81f4-e71686c838cd:Capture_decran_2025-09-09_a_11.54.46.png)
+<table>
+  <tr>
+    <td>
+      <img src="Images/Product_Category_Analysis (5).png" alt="Product_Category_Analysis" width="300">
+      <p align="center"><i>Product_Category_Analysis</i></p>
+    </td>
+    <td>
+      <img src="Images/Product_Category_Analysis (6).png" alt="Product_Category_Analysis" width="500">
+      <p align="center"><i>Product_Category_Analysis</i></p>
+    </td>
+  </tr>
+</table>
 
 **Key insight:**  
 - Appliances 482290 orders and electronics 464913 orders are the most popular categories and core revenue drivers  
@@ -186,7 +204,7 @@ Electronics, appliances, computers, and products labeled as “Unknown” accoun
 <details>
 <summary><b>Question: What is the average value of a customer’s order?</b></summary><br>
 
-![Capture d’écran 2025-09-02 à 21.00.21.png](attachment:8501519c-3275-4268-a381-506d580893c4:Capture_decran_2025-09-02_a_21.00.21.png)
+      <img src="Images/Product_Category_Analysis (7).png" alt="Product_Category_Analysis" width="400">
 
 **Key insight:**  
 - This chart complements the previous analysis of order counts and units sold by adding the dimension of value per order.  
@@ -202,9 +220,9 @@ Electronics, appliances, computers, and products labeled as “Unknown” accoun
 <details>
 <summary><b>Question: How have sales for products and categories changed over time?</b></summary><br>
 
-![Capture d’écran 2025-09-03 à 14.19.28.png](attachment:cddf967b-e391-4f5d-bd40-b630588365cb:Capture_decran_2025-09-03_a_14.19.28.png)
+      <img src="Images/Product_Category_Analysis (8).png" alt="Product_Category_Analysis" width="400">
+      <img src="Images/Product_Category_Analysis (9).png" alt="Product_Category_Analysis" width="400">
 
-![Capture d’écran 2025-09-03 à 16.59.50.png](attachment:b9f72cce-eab7-4830-84ce-5c4570b0a468:Capture_decran_2025-09-03_a_16.59.50.png)
 
 *Monthly sales are aggregated at the category level to reduce granularity and highlight clear trends, making the analysis easier to interpret.*  
 
