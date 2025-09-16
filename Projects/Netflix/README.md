@@ -2,8 +2,7 @@
 
 ![image.png](attachment:292b4273-92e3-4f84-9212-9ca2deec66d8:image.png)
 
-<details>
-<summary> I. Introduction / Context </summary>
+## I. Introduction / Context
 
 ### **Who is Netflix?**
 
@@ -36,10 +35,7 @@ The goal of this project is to explore and analyze the Netflix catalogue, unders
 - **Power Query:** For data cleaning, transformation, and preparation.
 - **Power BI:** For interactive dashboards, filtering, and visual exploration of the dataset.
 
-</details>
-
-<details>
-<summary> II. Data Exploration </summary>
+## II. Data Exploration
 
 The Netflix dataset contains **8,807 rows and 12 columns**, covering the period from 2016 to 2021. The main columns include `show_id`, `type` (Movie or TV Show), `title`, `director`, `cast`, `country`, `date_added`, `release_year`, `Content Advisory`, `duration`, `Genres`, and `description`.
 
@@ -56,40 +52,60 @@ We also observed that some movies and shows were listed under multiple countries
 
 After exploring the dataset and identifying missing or inconsistent values, we are ready to clean the data and move on to exploratory analysis to uncover key insights.
 
-</details>
+---
 
-<details>
-<summary> III. Data Cleaning </summary>
+## III. Data Cleaning
+
+---
 
 To prepare the dataset for analysis, the following steps were performed:
 
-<details>
-<summary>Data Cleaning Steps</summary>
+---
 
 1. **Column adjustments and renaming**
+   <details>
     - Removed irrelevant columns like `description`.
     - Renamed `listed_in` to `Genres` and `rating` to `Content Advisory` for clarity.
+    <details>
+
 2. **Type conversion**
+   <details>
     - Converted `release_year` to integer, `date_added` to date, and `Movie_Duration`/`TV_Show_Duration` to numeric types.
+    <details>
+
 3. **Handling missing values**
+   <details>
     - `director` and `cast` left blank as not critical for analysis.
     - Missing `country` and `Genres` were replaced with `"Unknown"`.
+   <details>
+
 4. **Standardization and formatting**
+   <details>
     - Removed extraneous characters (e.g., `"min"`, `"s"`, `"Season/Seasons"`) from `duration` columns.
     - Standardized text capitalization for `title` and `country`.
     - Trimmed unnecessary spaces.
+    <details>
+
 5. **Splitting and unpivoting columns**
+    <details>
     - Separated multiple countries into distinct rows for detailed country-level analysis.
     - Similarly, genres were split and normalized.
+    <details>
+
 6. **Feature engineering**
+    <details>
     - Created `Movie_Duration` and `TV_Show_Duration` for better numeric analysis.
     - Added `Season_date_added` to categorize content by seasonal release (Winter, Spring, Summer, Fall).
+    <details>
+
 7. **Country normalization**
+   <details>
     - Replaced outdated or ambiguous country names (e.g., `"Soviet Union"` → `"Unknown"`, `"West Germany"`/`"East Germany"` → `"Germany"`).
+    <details>
+
 8. **Resulting dataset**
+    <details>
     - The dataset grew from 8,807 rows to **10,831 rows** after splitting multiple countries.
     - Cleaned, standardized, and structured data ready for exploratory analysis and visualization in Power BI.
+    <details>
 
-</details>
-
-</details>
