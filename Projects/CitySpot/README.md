@@ -2,15 +2,6 @@
   <img src="Images/Logo.png" alt="Logo.png" width="200">
 </p>
 
-
-
-## I. Introduction
-
-### **Who is CitySpot?**
-
-CitySpot is a data analysis project developed as part of my portfolio as a Junior Data Analyst. The goal of CitySpot is to help individuals – whether they are digit
-
-
 ## I. Introduction
 
 ### **Who is CitySpot?**
