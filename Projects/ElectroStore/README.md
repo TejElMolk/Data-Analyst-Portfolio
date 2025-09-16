@@ -412,3 +412,76 @@ These patterns suggest that **seasonality plays a role in sales**—customers ma
 - Schedule promotional campaigns and email marketing during 10 AM-2 PM peak hours to maximize engagement when customer activity and conversion potential are highest, while enhancing customer experience through built-in price and model comparison tools for similar electronic products.  
 - Implement targeted promotions and special offers on Thursday to boost the consistently low order volume and drive traffic during the week's slowest performance day.  
 - Make checkout faster and simpler during lunch hours (10 AM-2 PM) through methods like one-click payment options and guest checkout without account creation, so busy customers can complete purchases quickly without abandoning their carts, which helps maintain high order volumes that drive revenue growth.
+
+
+### **4. Basket Analysis**
+
+<details>
+<summary><b>Question: How do different basket sizes (small, average, large) contribute to overall revenue and order volume?</b></summary><br>
+
+<img src="Images/Basket Analysis (1).png" alt="Basket Analysis" width="500">
+
+**Key insight:**  
+- Small baskets dominate order flow (62%), but their low AOV ($58 vs. $239 overall) means they contribute very little to overall revenue. This indicates that many customers use the store for quick, low-value purchases such as accessories or small gadgets.  
+- Large baskets (26% of orders) generate twice the revenue of average baskets. Although only 1 in 4 customers fall into this segment, they contribute disproportionately to total revenue. This creates a dependency risk: if even a small fraction of these high-value customers churn, the business could face a significant revenue decline.  
+- Average baskets (12% of orders) contribute little to both volume and value. This group looks like a ‘middle ground’: small-basket buyers who add one more item, or large-basket buyers who drop one. Tracking this segment helps to see if upselling is working (small baskets moving up) or if high-value customers are buying less (large baskets moving down)  
+- Customers buy an average of 1.55 items per order, which is low for an electronics store where purchases are usually bundled (e.g., laptop + case + mouse, or phone + charger + earphones). This shows the store is missing chances to get customers to add more products like higher-value electronics or complementary items.
+
+</details>
+
+---
+
+<details>
+<summary><b>Question: How do basket values vary by time of day and day of week, and when are customers most likely to spend more?</b></summary><br>
+
+<img src="Images/Basket Analysis (2).png" alt="Basket Analysis" width="500">
+
+**Key insight:**  
+- **Daily spending averages cluster tightly between $229-252**, with only a **$23 range across the entire week** - indicating remarkably stable customer behavior regardless of which day they choose to shop.  
+- **Weekend spending difference is minimal at $15-25 higher** than weekdays, suggesting customers don't fundamentally change their spending patterns on weekends - they maintain similar basket values whether shopping on Tuesday or Saturday.  
+- **Time of day has more impact on basket values than day of week** - early morning hours (3-8) consistently underperform across all days while evening hours show strength, with customer availability driving shopping windows.  
+- **Weekdays and weekends both peak around 15h (3PM) and later** but **weekends show higher average values starting from 9AM** - customers shop when their schedules allow rather than waiting for specific days to make larger purchases.  
+- **Friday bridges weekday and weekend patterns** with elevated baskets starting at 11h instead of 14h - suggesting customers begin weekend shopping behavior before the actual weekend arrives.  
+- **Business operates with predictable time-based patterns rather than day-based volatility** - revenue forecasting should focus on hourly customer availability cycles rather than expecting dramatic weekend vs weekday differences.
+
+</details>
+
+---
+
+<details>
+<summary><b>Question: On which days and at what hours do customers place the most orders, and what patterns emerge from their daily shopping behavior?</b></summary><br>
+
+<img src="Images/Basket Analysis (3).png" alt="Basket Analysis" width="500">
+
+**Key insight:**  
+
+**Peak Days:**  
+- Saturday generates the highest order volume across all days.  
+- Weekend shopping dominates with Friday, Saturday, and Sunday leading, with Tuesday also showing high activity.  
+- Thursday consistently shows the lowest customer activity.  
+
+**Peak Hours:**  
+- The lunch period from 11 AM to 1 PM represents peak ordering time.  
+- Evening hours between 5 PM and 7 PM create a secondary demand surge.  
+- Overnight hours from 11 PM to 6 AM show minimal customer engagement.  
+
+**Customer Behavior:**  
+- Customers prefer shopping during lunch breaks and after work hours.  
+- Two distinct daily peaks indicate office workers and evening shoppers.  
+- Weekend ordering patterns suggest leisure time for researching expensive electronics purchases.  
+
+**Shopping Patterns:**  
+- Business hours drive the majority of purchase activity.  
+- Night-time shows minimal engagement as electronics require careful consideration rather than impulse buying.  
+- Consistent patterns suggest customers need daylight hours to research high-value purchases and compare products.
+
+</details>
+
+---
+
+### **Basket Analysis – Recommendations**
+
+- **Shift marketing focus from day-specific to hour-specific campaigns** - since time-of-day impact exceeds day-of-week differences, concentrate promotional spend during consistent peak windows (15h+ daily) rather than weekend-focused advertising. For example : **Launch "Friday Early Bird" promotions starting at 11h** - capitalize on customers beginning weekend shopping behavior a day early to extend high-value shopping windows  
+- **Redesign product recommendation systems** - since even peak shopping hours fail to drive basket sizes above 1.67 items, focus on systematic product page improvements with prominent complementary items rather than timing-based strategies  
+- **Develop customer retention programs for large basket segment (26% of orders)** - since this small group generates disproportionate revenue, implement VIP programs and personalized experiences to prevent churn that could cause significant revenue decline  
+- **Create tiered promotional strategies** - develop different approaches for each basket segment rather than one-size-fits-all campaigns, focusing on moving small baskets up and protecting large basket loyalty to balance revenue sources
