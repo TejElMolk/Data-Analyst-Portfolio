@@ -300,3 +300,105 @@ Step 6 confirmed:
 
 **With the dataset explored, key relationships mapped, and missing or inconsistent values identified, we are ready to proceed with data cleaning, followed by exploratory data analysis to uncover insights.**
 
+
+## III. Data Cleaning
+
+**This step fixes data types, handles missing values, removes duplicates, standardizes text, and flags inconsistencies so we can analyze the data safely.**
+
+<details>
+<summary>STEP 1 – Correcting Data Types</summary><br>
+
+**Purpose:** Make sure columns have the right type for calculations and analysis.
+
+**Actions:**
+
+- Convert TEXT → TIMESTAMP for date/time columns.  
+- Fix spelling mistakes in column names (e.g., `product_name_lenght` → `product_name_length`).  
+- Convert numeric columns from float → INT where needed.  
+- Change postal codes from BIGINT → TEXT to keep leading zeros.
+
+**Tables:** `olist_orders`, `olist_order_items`, `olist_order_reviews`, `olist_products`, `olist_customers`, `olist_sellers`, `olist_geolocation`.
+
+**Outcome:** Columns now have the right type, so calculations and date operations work correctly.
+
+**SQL Code Sample :** 
+
+  <img src="Images/SQL_code_11.png" alt="SQL" width="500">
+
+</details>
+
+<details>
+<summary>STEP 2 – Handling Missing Values</summary><br>
+
+**Purpose:** Deal with missing data without breaking relationships or adding bias.
+
+**Actions:**
+
+- `olist_order_reviews`: Keep NULLs in comments to reflect real customer behavior.  
+- `olist_orders`: Keep NULLs in `order_approved_at` for cancelled orders.  
+- `olist_products`: Replace NULL product categories with `'unknown_category'`.  
+- `olist_product_category_name_translation`: Replace NULL English category names with `'unknown_category'`.  
+- `olist_products`: Replace NULL `product_photos_qty` with 0 to avoid calculation errors.
+
+**Tables:** `olist_products`, `olist_order_reviews`, `olist_orders`, `olist_product_category_name_translation`.
+
+**Outcome:** Missing values are handled carefully, keeping the dataset reliable for analysis.
+
+**SQL Code Sample:**
+
+  <img src="Images/SQL_code_12.png" alt="SQL" width="500">
+
+</details>
+
+<details>
+<summary>STEP 3 – Duplicate Management</summary><br>
+
+**Purpose:** Remove or manage duplicates to avoid errors while keeping data consistent.
+
+**Actions:**
+
+- `olist_customers`: Do not delete; use `customer_unique_id` as the unique identifier.  
+- `olist_geolocation`: Keep only one row per (`lat`, `lng`, `zip_code_prefix`, `city`, `state`) to remove redundant locations.  
+- `olist_order_reviews`:  
+    - Create unique review IDs when a review is linked to multiple orders.  
+    - Keep only the earliest review per order.  
+- `olist_products` & `olist_order_items`: Check products not used in orders; do not delete any since all are referenced.
+
+**Tables:** `olist_customers`, `olist_geolocation`, `olist_order_reviews`, `olist_products`, `olist_order_items`.
+
+**Outcome:** Duplicates are managed properly, preventing double counting and keeping data consistent.
+
+**SQL Code Sample:** 
+
+  <img src="Images/SQL_code_13.png" alt="SQL" width="500">
+
+</details>
+
+<details>
+<summary>STEP 4 – Handling Outliers and Data Inconsistencies</summary><br>
+
+**Purpose:** Find and fix or flag values that don’t make sense.
+
+**Actions:**
+
+- `olist_orders`: Add a `data_quality_flag` to flag impossible date sequences (e.g., carrier delivery before approval).  
+- `olist_order_reviews`: Flag reviews created before the order date.  
+- `olist_products` & `olist_product_category_name_translation`: Standardize English product categories and replace missing values with `'unknown_category'`.  
+- `olist_geolocation`:  
+    - Standardize city names by removing accents, special characters, and fixing known mistakes.  
+    - Remove extra characters and fix encoding issues.
+
+**Tables:** `olist_orders`, `olist_order_reviews`, `olist_products`, `olist_product_category_name_translation`, `olist_geolocation`.
+
+**Outcome:** Dataset is now consistent, standardized, and ready for exploratory data analysis (EDA).
+
+**SQL Code Sample:** 
+
+  <img src="Images/SQL_code_14.png" alt="SQL" width="500">
+
+</details>
+
+---
+
+**After fixing types, handling missing values, removing duplicates, and standardizing data, the Olist dataset is clean and structured. All major quality issues are resolved, making it ready for the next step the Exploratory Data Analysis to discover trends, relationships, and insights.**
+
