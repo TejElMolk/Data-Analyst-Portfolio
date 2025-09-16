@@ -44,69 +44,95 @@ The project aims to analyze January–November 2020 data from a large online ele
 - Carefully **documented all observations**, flagging issues that could affect analysis. This step helped plan the **cleaning and transformation process**, including splitting columns, fixing data types, standardizing text, removing corrupted rows, and creating derived columns.
 - These insights ensured that, after cleaning, the dataset would be **structured, consistent, and ready for reliable analysis**, supporting Pivot Tables, Data Models, and Excel dashboards for deeper business insights.
 
-
 ## III. Data Cleaning
 
-- **STEP 1 - Date and Time Cleaning**
-    - Removed the `UTC` suffix from the `event_time` column.
-    - Converted `event_time` from text to **datetime type**.
-    - Filtered out invalid dates (`01/01/1970 00:33:40`) that could not be used in time-based analysis.
-    - Created a **date-only column** (`event_time_date`) and derived:
-        - Day of the week
-        - Day number (Monday = 0)
-        - Hour rounded to the nearest hour
+<details>
+<summary>STEP 1 - Date and Time Cleaning</summary>
 
-- **Step 2 - Price Cleaning**
-    - Standardized price formatting by replacing dots with commas where necessary.
-    - Converted `price` to **currency type** for accurate analysis.
+- Removed the `UTC` suffix from the `event_time` column.  
+- Converted `event_time` from text to **datetime type**.  
+- Filtered out invalid dates (`01/01/1970 00:33:40`) that could not be used in time-based analysis.  
+- Created a **date-only column** (`event_time_date`) and derived:  
+  - Day of the week  
+  - Day number (Monday = 0)  
+  - Hour rounded to the nearest hour  
 
-- **Step 3 - Category and Product Transformation**
-    - Split `category_code` into three columns:
-        - `category_name` (main category)
-        - `sub_category_name` (subcategory)
-        - `product_name`
-    - Renamed `product_id` → `product_model_id` and `brand` → `brand_name`.
+</details>
 
-- **Step 4 -  Handling Missing and Non-Standard Values**
-    - Added `Flag_data` to classify rows:
-        - **Critical Missing Data** → missing essential columns (`event_time`, `order_id`, `product_model_id`, `category_id`, `price`) → **excluded**
-        - **Non-Critical Missing Data** → missing less essential columns (`category_name`, `sub_category_name`, `product_name`, `brand_name`, `user_id`) → **retained for partial analysis**
-        - **Fully Complete** → all columns present and valid
-    - Replaced `null` or `"none"` values in text columns with `"Unknown"`.
-    - Trimmed whitespace and converted text columns to lowercase for consistent grouping.
+<details>
+<summary>STEP 2 - Price Cleaning</summary>
 
-- **Step 5 -  Filtering and Joining**
-    - Removed rows with **critical missing data** to maintain accuracy.
-    - Ensured `user_id` type consistency across tables for reliable joins.
-    - Joined with a **user-level analysis table** to enrich the dataset with aggregated metrics:
-        - `Avg_days_between_orders`
-        - `Customer_Category`
-        - `Order_Frequency_Bin`
-        - `BasketSegment`
-        - `favorite_category`
+- Standardized price formatting by replacing dots with commas where necessary.  
+- Converted `price` to **currency type** for accurate analysis.  
 
-- **Step 6 -  Resulting Dataset**
-    - Fully structured, consistent, and ready for analysis.
-    - Supports **Pivot Tables**, **Data Models**, and **Excel dashboards** to analyze:
-        - Customer behavior
-        - Product performance
-        - Purchase trends over time
-        
+</details>
+
+<details>
+<summary>STEP 3 - Category and Product Transformation</summary>
+
+- Split `category_code` into three columns:  
+  - `category_name` (main category)  
+  - `sub_category_name` (subcategory)  
+  - `product_name`  
+- Renamed `product_id` → `product_model_id` and `brand` → `brand_name`.  
+
+</details>
+
+<details>
+<summary>STEP 4 - Handling Missing and Non-Standard Values</summary>
+
+- Added `Flag_data` to classify rows:  
+  - **Critical Missing Data** → missing essential columns (`event_time`, `order_id`, `product_model_id`, `category_id`, `price`) → **excluded**  
+  - **Non-Critical Missing Data** → missing less essential columns (`category_name`, `sub_category_name`, `product_name`, `brand_name`, `user_id`) → **retained for partial analysis**  
+  - **Fully Complete** → all columns present and valid  
+- Replaced `null` or `"none"` values in text columns with `"Unknown"`.  
+- Trimmed whitespace and converted text columns to lowercase for consistent grouping.  
+
+</details>
+
+<details>
+<summary>STEP 5 - Filtering and Joining</summary>
+
+- Removed rows with **critical missing data** to maintain accuracy.  
+- Ensured `user_id` type consistency across tables for reliable joins.  
+- Joined with a **user-level analysis table** to enrich the dataset with aggregated metrics:  
+  - `Avg_days_between_orders`  
+  - `Customer_Category`  
+  - `Order_Frequency_Bin`  
+  - `BasketSegment`  
+  - `favorite_category`  
+
+</details>
+
+<details>
+<summary>STEP 6 - Resulting Dataset</summary>
+
+- Fully structured, consistent, and ready for analysis.  
+- Supports **Pivot Tables**, **Data Models**, and **Excel dashboards** to analyze:  
+  - Customer behavior  
+  - Product performance  
+  - Purchase trends over time  
+
 <img src="Images/Tab Raw & cleaned Data.png" alt="Tab Raw & cleaned Data.png" width="600">
+
+
+| New Column ElectroStore cleaned | Description |  |
+| --- | --- | --- |
+| event_time_date | Extracted date from timestamp for easier date-based analysis |  |
+| product_model_id | Standardized product identifier for joining and analysis |  |
+| category_name / sub_category_name | Readable category info instead of numeric codes |  |
+| product_name / brand_name | Human-readable product details for reporting |  |
+| price | Converted to numeric/currency for calculations |  |
+| Flag_data | Marks missing or special-case data |  |
+| Day_Name / Hour_Rounded / Day_Number | Extracted from event_time for time-based analysis |  |
+| Avg_days_between_orders | Shows average time between orders per user |  |
+| Customer_Category | Categorized users into **Occasional (1 order)**, **Recurrent (2 orders)**, and **Loyal (3+ orders)** based on number of purchases, enabling behavior-based analysis. |  |
+| Order_Frequency_Bin | Bucketed users by order frequency |  |
+| BasketSegment | Groups users by basket composition/type of purchase |  |
+| favorite_category | Most purchased category per user for personalization insights |  |
+
+</details>
+
         
-        | New Column ElectroStore cleaned | Description |  |
-        | --- | --- | --- |
-        | event_time_date | Extracted date from timestamp for easier date-based analysis |  |
-        | product_model_id | Standardized product identifier for joining and analysis |  |
-        | category_name / sub_category_name | Readable category info instead of numeric codes |  |
-        | product_name / brand_name | Human-readable product details for reporting |  |
-        | price | Converted to numeric/currency for calculations |  |
-        | Flag_data | Marks missing or special-case data |  |
-        | Day_Name / Hour_Rounded / Day_Number | Extracted from event_time for time-based analysis |  |
-        | Avg_days_between_orders | Shows average time between orders per user |  |
-        | Customer_Category | Categorized users into **Occasional (1 order)**, **Recurrent (2 orders)**, and **Loyal (3+ orders)** based on number of purchases, enabling behavior-based analysis. |  |
-        | Order_Frequency_Bin | Bucketed users by order frequency |  |
-        | BasketSegment | Groups users by basket composition/type of purchase |  |
-        | favorite_category | Most purchased category per user for personalization insights |  |
-
-
+        
+       
