@@ -157,3 +157,6 @@ Shows strong growth in revenue and orders driven by new customers and popular pr
 - **LinkedIn**: [@TejElMolkEnnouri](https://www.linkedin.com/in/tej-el-molk-ennouri/)  
 - **Email**: tejelmolkennour@gmail.com
 - **Website**: [https://www.tonsitewix.com](https://www.tonsitewix.com)
+
+**Copyright (c) 2025 Tej El Molk Ennouri**
+**All rights reserved. For demonstration purposes only**
