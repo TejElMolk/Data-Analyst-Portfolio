@@ -7,7 +7,7 @@
 I’m **Tej El Molk — Molka** for short, a **data enthusiast** and **aspiring data analyst** with experience at **AIRBUS** as a **PMO**, 
 specializing in **reporting** and **dashboard visualization**. <br>
 I use mainly **SQL**, **Power Query**, **Python**, **Power BI**, and **Looker** to **analyze data** and **uncover actionable insights**.<br>
-Here, you’ll find my **projects**, **analyses**, and **portfolio pieces**—complete with **code**, **reports**, and **explanations**—
+Here, you’ll find my **projects**, **analyses**, and **portfolio pieces**—complete with **code**, **reports**, and **explanations**— <br>
 showcasing my passion for **turning complex data into meaningful stories** that **inform decisions** and **drive real impact**.
 
 ---
