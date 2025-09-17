@@ -158,5 +158,7 @@ Shows strong growth in revenue and orders driven by new customers and popular pr
 - **Email**: tejelmolkennour@gmail.com
 - **Website**: [https://www.tonsitewix.com](https://www.tonsitewix.com)
 
-**Copyright (c) 2025 Tej El Molk Ennouri**
+
+---
+**Copyright (c) 2025 Tej El Molk Ennouri** <br>
 **All rights reserved. For demonstration purposes only**
